@@ -1,6 +1,6 @@
 # CHaMP Metrics
 
-### [Tools](docs/index.md)
+***NB: This repo has been moved to https://github.com/Riverscapes/champ_metrics. The current copy will be archived for posterity***
 
 
 ### Creating new tools
