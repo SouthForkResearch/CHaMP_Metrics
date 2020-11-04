@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MetricSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Riverscapes/CHaMPAutomation/master/templates/XML/XSD/schema.xsd">
+  <Name>QA - Topo Tier 2 Metrics</Name>
+  <RootXPath>/TopoMetrics/Metrics/ChannelUnitsTier2/*</RootXPath>
+  <Metrics>
+    <Metric name="Area" xpath="Area" precision="4" type="numeric" />
+    <Metric name="Ct" xpath="Count" precision="0" type="numeric" />
+    <Metric name="Freq" xpath="Frequency" precision="4" type="numeric" />
+    <Metric name="Pct" xpath="Percent" precision="4" type="numeric" />
+    <Metric name="DpthResid" xpath="ResidualDepth" precision="4" type="numeric" />
+    <Metric name="DpthThlwgExit" xpath="DepthAtThalwegExit" precision="4" type="numeric" />
+    <Metric name="DpthMax_Avg" xpath="AvgMaxDepth" precision="4" type="numeric" />
+    <Metric name="Tier2" xpath="Name" type="string" />
+    <Metric name="Vol" xpath="Volume" precision="4" type="numeric" />
+  </Metrics>
+</MetricSchema>

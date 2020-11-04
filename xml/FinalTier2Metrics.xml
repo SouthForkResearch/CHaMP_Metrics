@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MetricSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Riverscapes/CHaMPAutomation/master/templates/XML/XSD/schema.xsd">
+  <Name>Final - Tier 2 Metrics 2018_02_16</Name>
+  <RootXPath>/</RootXPath>
+  <Metrics>
+    <Metric name="Area" xpath="TopoMetrics/Metrics/ChannelUnitsTier2/*/Area" precision="4" type="numeric" />
+    <Metric name="Freq" xpath="TopoMetrics/Metrics/ChannelUnitsTier2/*/Frequency" precision="4" type="numeric" />
+    <Metric name="Pct" xpath="TopoMetrics/Metrics/ChannelUnitsTier2/*/Percent" precision="4" type="numeric" />
+    <Metric name="DpthResid" xpath="TopoMetrics/Metrics/ChannelUnitsTier2/*/ResidualDepth" precision="4" type="numeric" />
+    <Metric name="DpthThlwgExit" xpath="TopoMetrics/Metrics/ChannelUnitsTier2/*/DepthAtThalwegExit" precision="4" type="numeric" />
+    <Metric name="DpthMax_Avg" xpath="TopoMetrics/Metrics/ChannelUnitsTier2/*/AvgMaxDepth" precision="4" type="numeric" />
+    <Metric name="Tier2" xpath="TopoMetrics/Metrics/ChannelUnitsTier2/*/Name" type="string" />
+    <Metric name="Vol" xpath="TopoMetrics/Metrics/ChannelUnitsTier2/*/Volume" precision="4" type="numeric" />
+  </Metrics>
+</MetricSchema>

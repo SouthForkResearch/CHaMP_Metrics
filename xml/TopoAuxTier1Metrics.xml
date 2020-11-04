@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MetricSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Riverscapes/CHaMPAutomation/master/templates/XML/XSD/schema.xsd">
+  <Name>QA - TopoAux Tier 1 Metrics</Name>
+  <RootXPath>/TopoAuxMetrics/Metrics/Tier1Metrics/*</RootXPath>
+  <Metrics>
+    <Metric name="FishCovAqVeg" xpath="FishCover/AqVeg" precision="4" type="numeric" />
+    <Metric name="FishCovArt" xpath="FishCover/Art" precision="4" type="numeric" />
+    <Metric name="FishCovLW" xpath="FishCover/LW" precision="4" type="numeric" />
+    <Metric name="FishCovNone" xpath="FishCover/None" precision="4" type="numeric" />
+    <Metric name="FishCovTVeg" xpath="FishCover/TVeg" precision="4" type="numeric" />
+    <Metric name="FishCovTotal" xpath="FishCover/Total" precision="4" type="numeric" />
+    <Metric name="FishCovUcut" xpath="FishCover/Ucut" precision="4" type="numeric" />
+    <Metric name="SubEstBldr" xpath="Substrate/Bldr" precision="4" type="numeric" />
+    <Metric name="SubEstGrvl" xpath="Substrate/Grvl" precision="4" type="numeric" />
+    <Metric name="SubEstCbl" xpath="Substrate/Cbl" precision="4" type="numeric" />
+    <Metric name="SubEstSandFines" xpath="Substrate/SandFines" precision="4" type="numeric" />
+    <Metric name="Tier1" xpath="Name" type="string" />
+  </Metrics>
+</MetricSchema>

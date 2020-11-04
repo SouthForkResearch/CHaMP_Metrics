@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    We're trying to map XML outputs into a metric schema. This file will be used to create the metric schemas AND hwo to populate them
+-->
+<MetricSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Riverscapes/CHaMPAutomation/master/templates/XML/XSD/schema.xsd">
+  <Name>QA - Topo Visit Validation</Name>
+  <RootXPath>/TopoValidation/Status</RootXPath>
+  <Metrics>
+    <Metric name="Status" xpath="Overall" type="string"/>
+    <Metric name="Errors" xpath="Errors" type="numeric"/>
+    <Metric name="Warnings" xpath="Warnings" type="numeric"/>
+    <Metric name="NotTested" xpath="NotTested" type="numeric"/>
+
+    <Metric name="StreamFeatures" xpath="Layers/StreamFeatures" type="string"/>
+    <Metric name="BankfullIslands" xpath="Layers/BankfullIslands" type="string"/>
+    <Metric name="DEM" xpath="Layers/DEM" type="string"/>
+    <Metric name="AssocPointDensity" xpath="Layers/AssocPointDensity" type="string"/>
+    <Metric name="ErrorSurface" xpath="Layers/ErrorSurface" type="string"/>
+    <Metric name="Error_Points" xpath="Layers/Error_Points" type="string"/>
+    <Metric name="WettedIslands" xpath="Layers/WettedIslands" type="string"/>
+    <Metric name="BankfullCrossSections" xpath="Layers/BankfullCrossSections" type="string"/>
+    <Metric name="WaterDepth" xpath="Layers/WaterDepth" type="string"/>
+    <Metric name="WettedCenterline" xpath="Layers/WettedCenterline" type="string"/>
+    <Metric name="BankfullCenterline" xpath="Layers/BankfullCenterline" type="string"/>
+    <Metric name="AssocSlope" xpath="Layers/AssocSlope" type="string"/>
+    <Metric name="Topo_Points" xpath="Layers/Topo_Points" type="string"/>
+    <Metric name="ChannelUnits" xpath="Layers/ChannelUnits" type="string"/>
+    <Metric name="DetrendedDEM" xpath="Layers/DetrendedDEM" type="string"/>
+    <Metric name="Thalweg" xpath="Layers/Thalweg" type="string"/>
+    <Metric name="AssocPointQuality" xpath="Layers/AssocPointQuality" type="string"/>
+    <Metric name="AssocInterpolationError" xpath="Layers/AssocInterpolationError" type="string"/>
+    <Metric name="EdgeofWater_Points" xpath="Layers/EdgeofWater_Points" type="string"/>
+    <Metric name="Breaklines" xpath="Layers/Breaklines" type="string"/>
+    <Metric name="WaterExtent" xpath="Layers/WaterExtent" type="string"/>
+    <Metric name="BankfullExtent" xpath="Layers/BankfullExtent" type="string"/>
+    <Metric name="AssocRough" xpath="Layers/AssocRough" type="string"/>
+    <Metric name="WettedCrossSections" xpath="Layers/WettedCrossSections" type="string"/>
+    <Metric name="Control_Points" xpath="Layers/Control_Points" type="string"/>
+    <Metric name="WaterSurfaceDEM" xpath="Layers/WaterSurfaceDEM" type="string"/>
+
+  </Metrics>
+</MetricSchema>
+
+

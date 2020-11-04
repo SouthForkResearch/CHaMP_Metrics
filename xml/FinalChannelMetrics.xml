@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MetricSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Riverscapes/CHaMPAutomation/master/templates/XML/XSD/schema.xsd">
+  <Name>Final - Channel Metrics 2018_02_16</Name>
+  <RootXPath>/</RootXPath>
+  <Metrics>
+    <Metric name="AreaTotal" xpath="TopoMetrics/Metrics/ChannelUnits/*/Area" precision="4" type="numeric" />
+    <Metric name="DpthThlwgExit" xpath="TopoMetrics/Metrics/ChannelUnits/*/DepthAtThalwegExit" precision="4" type="numeric" />
+    <Metric name="ChUnitNumber" xpath="TopoMetrics/Metrics/ChannelUnits/*/ChannelUnitNumber" precision="0" type="numeric" />
+    <Metric name="ChUnitID" xpath="AuxMetrics/Metrics/ChannelUnitMetrics/*/ChannelUnitID" precision="0" type="numeric" />
+    <Metric name="DpthResid" xpath="TopoMetrics/Metrics/ChannelUnits/*/ResidualDepth" precision="4" type="numeric" />
+    <Metric name="LWCount" xpath="AuxMetrics/Metrics/ChannelUnitMetrics/*/LargeWoodyPiecesCount" precision="0" type="numeric" />
+    <Metric name="Dpth_Max" xpath="TopoMetrics/Metrics/ChannelUnits/*/MaxDepth" precision="4" type="numeric" />
+    <Metric name="Tier1" xpath="TopoMetrics/Metrics/ChannelUnits/*/Tier1" type="string" />
+    <Metric name="Tier1" xpath="AuxMetrics/Metrics/ChannelUnitMetrics/*/Tier1" type="string" />
+    <Metric name="Tier2" xpath="TopoMetrics/Metrics/ChannelUnits/*/Tier2" type="string" />
+    <Metric name="Tier2" xpath="AuxMetrics/Metrics/ChannelUnitMetrics/*/Tier2" type="string" />
+    <Metric name="TotalVol" xpath="TopoMetrics/Metrics/ChannelUnits/*/Volume" precision="4" type="numeric" />
+  </Metrics>
+</MetricSchema>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MetricSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Riverscapes/CHaMPAutomation/master/templates/XML/XSD/schema.xsd">
+  <Name>Final - Tier 1 Metrics 2018_02_16</Name>
+  <RootXPath>/</RootXPath>
+  <Metrics>
+    <Metric name="FishCovAqVeg" xpath="TopoAuxMetrics/Metrics/Tier1Metrics/*/FishCover/AqVeg" precision="4" type="numeric" />
+    <Metric name="FishCovArt" xpath="TopoAuxMetrics/Metrics/Tier1Metrics/*/FishCover/Art" precision="4" type="numeric" />
+    <Metric name="FishCovLW" xpath="TopoAuxMetrics/Metrics/Tier1Metrics/*/FishCover/LW" precision="4" type="numeric" />
+    <Metric name="FishCovNone" xpath="TopoAuxMetrics/Metrics/Tier1Metrics/*/FishCover/None" precision="4" type="numeric" />
+    <Metric name="FishCovTVeg" xpath="TopoAuxMetrics/Metrics/Tier1Metrics/*/FishCover/TVeg" precision="4" type="numeric" />
+    <Metric name="FishCovTotal" xpath="TopoAuxMetrics/Metrics/Tier1Metrics/*/FishCover/Total" precision="4" type="numeric" />
+    <Metric name="FishCovUcut" xpath="TopoAuxMetrics/Metrics/Tier1Metrics/*/FishCover/Ucut" precision="4" type="numeric" />
+    <Metric name="LWVol_BfTier1" xpath="AuxMetrics/Metrics/Tier1Metrics/*/BankfullLargeWoodVolumeByTier1" precision="4" type="numeric" />
+    <Metric name="LWVol_WetTier1" xpath="AuxMetrics/Metrics/Tier1Metrics/*/WettedLargeWoodVolumeByTier1" precision="4" type="numeric" />
+    <Metric name="SubEstBldr" xpath="TopoAuxMetrics/Metrics/Tier1Metrics/*/Substrate/Bldr" precision="4" type="numeric" />
+    <Metric name="SubEstGrvl" xpath="TopoAuxMetrics/Metrics/Tier1Metrics/*/Substrate/Grvl" precision="4" type="numeric" />
+    <Metric name="SubEstCbl" xpath="TopoAuxMetrics/Metrics/Tier1Metrics/*/Substrate/Cbl" precision="4" type="numeric" />
+    <Metric name="SubEstSandFines" xpath="TopoAuxMetrics/Metrics/Tier1Metrics/*/Substrate/SandFines" precision="4" type="numeric" />
+    <Metric name="Tier1" xpath="AuxMetrics/Metrics/Tier1Metrics/*/Tier1" type="string" />
+    <Metric name="Tier1" xpath="TopoAuxMetrics/Metrics/Tier1Metrics/*/Name" type="string" />
+  </Metrics>
+</MetricSchema>

@@ -1,0 +1,149 @@
+ComponentTypeID,DisplayName
+1,Supplementary Photo
+2,Air Temp Logger
+3,Benchmark
+5,Channel Unit
+6,Overview
+7,Discharge Station
+8,Drift Invertebrate
+9,Large Wood
+10,Monument
+11,Pebble
+12,Transect Photo
+13,Pool Tail Fines
+14,Riparian Structure
+15,Site Record
+16,Solar Input
+17,Stream Temp Logger
+18,Site Marker
+19,Water Chemistry
+24,Site Map
+25,Check File
+31,DCE Summary
+33,Channel Dimension
+34,Undercut Banks
+36,Woody Debris Jam
+37,Jam Has Channel Unit
+38,Discharge Cross-Section
+40,Transect
+41,Control Point
+42,Width Category
+43,Pebble Cross-section
+45,Temp Logger Maintenance
+46,Air Temperature Results
+47,Average Shading
+48,Average Solar Access
+49,Average Windowed Solar Access
+50,Obstruction Elevations
+51,Windowed Obstruction Elevations
+52,Average Monthly Solar Access
+53,Skyline PV_SOL
+54,Skyline PV_SYST
+55,Skyline Annual Access
+56,Skyline Annual Access Fully Annotated
+57,Skyline Daily Solar Access
+58,Skyline Full Fish Eye
+59,Skyline Insolation
+60,Skyline Monthly Solar Access
+61,Skyline Obstruction Elevations
+62,Skyline Obstruction Elevations (xml)
+63,Skyline Shading
+64,Skyline Windowed Daily Solar Access
+65,Skyline Windowed Obstruction Elevations
+66,Stream Temp Results
+67,Air Temp Logger Proprietary File
+68,Stream Temp Logger Proprietary File
+69,SunEye Proprietary File
+70,SunEye Session File
+76,Solar Pathfinder Results
+77,Targeted Riffle Sample
+78,Targeted Riffle Sample Replicate
+79,Livestock
+81,Snorkel Setup
+82,Snorkel Lane
+83,Snorkel Fish
+84,Electro Setup
+85,Electro Pass
+86,Transect Fish
+87,Streambank
+88,Channel Constraints
+89,Channel Constraint Measurements
+90,Slope and Bearing
+91,Slope and Bearing Setup
+92,Artificially Placed Instream Structures
+93,Gravel
+94,Gravel Unit
+99,Canopy Cover
+103,Thalweg Profile
+104,Culvert
+105,Culvert Length and Slope
+106,Misc Barrier
+107,Misc Barrier Slope
+108,Fish Cover
+109,Substrate Cover
+110,Side Channel
+111,Crew
+112,Mid Channel Bottom of Site
+113,Multi Habitat Sample
+114,Multi Habitat Sample Replicate
+117,Fishway
+118,Fishway Waterdrop
+119,Riparian Structure EMAP
+121,Electro Pass Transect
+122,Suggested Topo Survey Workflow
+123,Site Map
+124,Culvert Photo
+125,Misc Barrier Photo
+126,Fishway Photo
+127,Supplementary Photo
+128,Artificially Placed Instream Structure Photo
+129,Large Wood Piece
+130,Multi Habitat Benthic Type
+131,Lane Transect
+132,Livestock Photo
+133,Fish
+134,Channel Segment
+135,Visit Pool Tail Fines
+136,Fish Count
+137,Fish Count - O. mykiss
+138,Young of the Year Salmon
+139,Other Species Presence
+140,Relative Abundance
+141,Air Temp Logger HOBO File
+142,Electro Fish
+143,Spawning Gravel
+144,Overview
+145,Transect
+146,Transect Photo
+147,Channel Form and Constraints
+148,Riparian Vegetation
+149,Culvert
+150,Potential Barrier
+151,Wood Jam
+152,Large Woody Debris
+153,Bank Undercut / Erosion
+154,Snorkel Pool
+155,Snorkel Pool Pass
+156,Snorkel Pool Fish
+157,Channel Unit Photo
+158,Culvert
+159,Overview
+160,Site Marker
+161,Transect
+162,Riparian Vegetation
+163,Large Wood
+164,Snorkel Import
+165,Overview
+168,Crew
+169,Mid Channel Point X
+170,Supplementary Photo
+171,Livestock
+172,Livestock Photo
+174,Transect Photo
+175,Canopy Cover
+176,Riparian Structure EMAP
+177,Riparian Planting Plot
+178,Streambank
+179,Width Category
+180,Transect
+181,Topo Data

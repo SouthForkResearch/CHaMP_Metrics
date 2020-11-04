@@ -1,0 +1,996 @@
+MeasAttribID,Name,DisplayName
+1,CHAMPMeasAirTemperatureLogger.TemperatureID,Temperature ID
+3,CHAMPMeasAirTemperatureLogger.UTMZone,UTM Zone
+4,CHAMPMeasAirTemperatureLogger.UTMNorthing,UTM Northing
+5,CHAMPMeasAirTemperatureLogger.UTMEasting,UTM Easting
+7,CHAMPMeasAirTemperatureLogger.BankListItemID,Bank
+8,CHAMPMeasAirTemperatureLogger.ClosestMonumentID,Closest Monument ID
+9,CHAMPMeasAirTemperatureLogger.DistancefromClosestMonument,Distance from Closest Monument
+10,CHAMPMeasAirTemperatureLogger.BearingfromClosestMonument,Bearing from Closest Monument
+11,CHAMPMeasAirTemperatureLogger.LoggerID,Logger ID
+12,CHAMPMeasAirTemperatureLogger.DateIn,Date Installed
+13,CHAMPMeasAirTemperatureLogger.DateOut,Date Removed
+14,CHAMPMeasAirTemperatureLogger.PhotoID,Photo
+16,CHAMPMeasAirTemperatureLogger.Notes,Field Notes
+17,CHAMPMeasBenchmark.BenchmarkID,Benchmark ID
+19,CHAMPMeasBenchmark.BenchmarkNumber,Benchmark Number
+20,CHAMPMeasBenchmark.BenchmarkTypeListItemID,Benchmark Type
+21,CHAMPMeasBenchmark.UTMZone,UTM Zone
+22,CHAMPMeasBenchmark.UTMNorthing,UTM Northing
+23,CHAMPMeasBenchmark.UTMEasting,UTM Easting
+25,CHAMPMeasBenchmark.BankListItemID,Bank
+26,CHAMPMeasBenchmark.BearingBenchmark12,Bearing Benchmark 1 2
+27,CHAMPMeasBenchmark.BearingBenchmark13,Bearing Benchmark 1 3
+28,CHAMPMeasBenchmark.BearingBenchmark23,Bearing Benchmark 2 3
+29,CHAMPMeasBenchmark.ClosestMonumentID,Closest Monument ID
+30,CHAMPMeasBenchmark.DistancefromClosestMonument,Distance from Closest Monument
+31,CHAMPMeasBenchmark.BearingfromClosestMonument,Bearing from Closest Monument
+32,CHAMPMeasBenchmark.Notes,Field Notes
+42,CHAMPMeasChannelUnit.ChannelUnitID,Channel Unit ID
+44,CHAMPMeasChannelUnit.ChannelUnitNumber,Channel Unit Number
+45,CHAMPMeasChannelUnit.ChannelSegmentID,Channel Segment
+46,CHAMPMeasChannelUnit.Tier1ListItemID,Tier 1
+47,CHAMPMeasChannelUnit.Tier2ListItemID,Tier 2
+48,CHAMPMeasSideChannel.PercentFlow,Percent Flow
+49,CHAMPMeasSideChannel.SideChannelPresent,Side Channel Present
+50,CHAMPMeasSideChannel.SideChannelLength,Side Channel Length
+51,CHAMPMeasSideChannel.SideChannelWidth,Side Channel Width
+52,CHAMPMeasFishCover.LWDFC,Woody Debris FC
+53,CHAMPMeasFishCover.VegetationFC,Overhanging Vegetation FC
+54,CHAMPMeasFishCover.UndercutBanksFC,Undercut Banks FC
+55,CHAMPMeasFishCover.ArtificialFC,Artificial FC
+56,CHAMPMeasFishCover.TotalNoFC,Total No FC
+57,CHAMPMeasSubstrateCover.Bedrock,Bedrock
+58,CHAMPMeasSubstrateCover.Boulders,Boulders (>256)
+59,CHAMPMeasSubstrateCover.Cobbles,Cobbles (65-255)
+60,CHAMPMeasSubstrateCover.CourseGravel,Coarse Gravel (17-64)
+61,CHAMPMeasSubstrateCover.FineGravel,Fine Gravel (3-16)
+62,CHAMPMeasSubstrateCover.Sand,Sand (0.06-2)
+63,CHAMPMeasSubstrateCover.Fines,Fines (<0.06)
+64,CHAMPMeasChannelUnit.Notes,Field Notes
+66,CHAMPMeasVisitInformation.SiteID,SiteID
+68,CHAMPMeasVisitInformation.StartDate,Start Date
+69,CHAMPMeasVisitInformation.EndDate,End Date
+70,CHAMPMeasVisitInformation.TimeZoneListItemID,Time Zone
+72,CHAMPMeasBankfullWidth.SiteLength,Site Length
+73,CHAMPMeasBankfullWidth.AverageBFWidth,Average BF Width
+74,CHAMPMeasBankfullWidth.WidthCategory,Width Category
+75,CHAMPMeasVisitInformation.PrimaryBedformClassListItemID,Primary Bedform Class
+79,CHAMPMeasDischarge.DischargeID,ID
+82,CHAMPMeasDischarge.StationWidth,Station Width
+83,CHAMPMeasDischarge.TapeDistance,Tape Distance
+84,CHAMPMeasDischarge.Depth,Depth
+85,CHAMPMeasDischarge.Velocity,Velocity
+88,CHAMPMeasDriftInverterbrateSample.SampleReplicateID,Sample Replicate ID
+89,CHAMPMeasDriftInverterbrateSample.Depth,Start Depth
+90,CHAMPMeasDriftInverterbrateSample.StartDTM,Start Time
+91,CHAMPMeasDriftInverterbrateSample.StartVelocity,Start Velocity
+92,CHAMPMeasDriftInverterbrateSample.EndDTM,End Time
+93,CHAMPMeasDriftInverterbrateSample.EndVelocity,End Velocity
+94,CHAMPMeasLargeWoodyDebris.LargeWoodID,Large Wood ID
+95,CHAMPMeasLargeWoodyDebris.ChannelUnitID,Channel Unit ID
+96,CHAMPMeasLargeWoodyDebris.JamNumber,Jam Number
+97,CHAMPMeasLargeWoodyDebris.SmallSmall,Small Small
+98,CHAMPMeasLargeWoodyDebris.SmallMedium,Small Medium
+99,CHAMPMeasLargeWoodyDebris.SmallLarge,Small Large
+100,CHAMPMeasLargeWoodyDebris.MediumSmall,Medium Small
+101,CHAMPMeasLargeWoodyDebris.MediumMedium,Medium Medium
+102,CHAMPMeasLargeWoodyDebris.MediumLarge,Medium Large
+103,CHAMPMeasLargeWoodyDebris.LargeSmall,Large Small
+104,CHAMPMeasLargeWoodyDebris.LargeMedium,Large Medium
+105,CHAMPMeasLargeWoodyDebris.LargeLarge,Large Large
+107,CHAMPMeasMonument.MonumentID,Monument ID
+109,CHAMPMeasMonument.MonumentNumber,Monument Number
+110,CHAMPMeasMonument.MonumentTypeListItemID,Monument Type
+111,CHAMPMeasMonument.UTMZone,UTM Zone
+112,CHAMPMeasMonument.UTMNorthing,UTM Northing
+113,CHAMPMeasMonument.UTMEasting,UTM Easting
+115,CHAMPMeasMonument.BankListItemID,Bank
+116,CHAMPMeasMonument.DistancetoBank,Distance to Bank
+117,CHAMPMeasMonument.Description,Description
+118,CHAMPMeasMonument.TreeSpeciesListItemID,Tree Species
+119,CHAMPMeasMonument.TreeDBH,Tree DBH
+120,CHAMPMeasMonument.PhotoID,Photo
+122,CHAMPMeasPebble.PebbleID,Pebble ID
+123,CHAMPMeasPebble.CrossSectionID,Cross-Section ID
+124,CHAMPMeasPebble.PebbleNumber,Pebble Number
+125,CHAMPMeasPebble.Substrate,Substrate Measurement
+126,CHAMPMeasPebble.CobbleEmbededPercent,Cobble Percent Buried
+129,CHAMPMeasTransectPhoto.TransectID,Transect ID
+130,CHAMPMeasTransectPhoto.CenterUpPhotoID,Center Up
+131,CHAMPMeasTransectPhoto.CenterLeftPhotoID,Center Left
+132,CHAMPMeasTransectPhoto.CenterDownPhotoID,Center Down
+133,CHAMPMeasTransectPhoto.CenterRightPhotoID,Center Right
+135,CHAMPMeasPoolTailFines.PoolTailFinesID,Pool Tail Fines ID
+136,CHAMPMeasPoolTailFines.ChannelUnitID,Channel Unit ID
+137,CHAMPMeasPoolTailFines.Grid1Lessthan2mm,Grid1 Less than 2mm
+138,CHAMPMeasPoolTailFines.Grid1Lessthan6mm,Grid1 Less than 6mm
+139,CHAMPMeasPoolTailFines.Grid1NonMeasureable,Grid1 Non-Measureable
+140,CHAMPMeasPoolTailFines.Grid2Lessthan2mm,Grid2 Less than 2mm
+141,CHAMPMeasPoolTailFines.Grid2Lessthan6mm,Grid2 Less than 6mm
+142,CHAMPMeasPoolTailFines.Grid2NonMeasureable,Grid2 Non-Measureable
+143,CHAMPMeasPoolTailFines.Grid3Lessthan2mm,Grid3 Less than 2mm
+144,CHAMPMeasPoolTailFines.Grid3Lessthan6mm,Grid3 Less than 6mm
+145,CHAMPMeasPoolTailFines.Grid3NonMeasureable,Grid3 Non-Measureable
+146,CHAMPMeasRiparianStructure.RiparianStructureID,Riparian Structure ID
+148,CHAMPMeasRiparianStructure.TransectID,Transect ID
+149,CHAMPMeasRiparianStructure.LBCanopyVegetationTypeListItemID,LB Canopy Vegetation Type
+150,CHAMPMeasRiparianStructure.LBCanopyBigTrees,LB Canopy Big Trees (>30 cm DBH)
+151,CHAMPMeasRiparianStructure.LBCanopySmallTrees,LB Canopy Small Trees (<30 cm DBH)
+152,CHAMPMeasRiparianStructure.LBUnderstoryVegetationTypeListItemID,LB Understory VegetationType
+153,CHAMPMeasRiparianStructure.LBUnderstoryWoodyShrubs,LB Understory Woody Shrubs
+154,CHAMPMeasRiparianStructure.LBUnderstoryNonWoodyShrubs,LB Understory Non-Woody Shrubs
+155,CHAMPMeasRiparianStructure.LBGroundcoverWoodyShurbs,LB Groundcover Woody Shrubs
+156,CHAMPMeasRiparianStructure.LBGroundcoverNonWoodyShrubs,LB Groundcover Non-Woody Shrubs
+157,CHAMPMeasRiparianStructure.LBGroundcoverBarren,LB Groundcover Barren
+158,CHAMPMeasRiparianStructure.RBCanopyVegetationTypeListItemID,RB Canopy Vegetation Type
+159,CHAMPMeasRiparianStructure.RBCanopyBigTrees,RB Canopy Big Trees (>30 cm DBH)
+160,CHAMPMeasRiparianStructure.RBCanopySmallTrees,RB Canopy Small Trees (<30 cm DBH)
+161,CHAMPMeasRiparianStructure.RBUnderstoryVegetationTypeListItemID,RB Understory Vegetation Type
+162,CHAMPMeasRiparianStructure.RBUnderstoryWoodyShrubs,RB Understory Woody Shrubs
+163,CHAMPMeasRiparianStructure.RBUnderstoryNonWoodyShrubs,RB Understory Non-Woody Shrubs
+164,CHAMPMeasRiparianStructure.RBGroundcoverWoodyShrubs,RB Groundcover Woody Shrubs
+165,CHAMPMeasRiparianStructure.RBGroundcoverNonWoodyShurbs,RB Groundcover Non-Woody Shrubs
+166,CHAMPMeasRiparianStructure.RBGroundcoverBarren,RB Groundcover Barren
+167,CHAMPMeasRiparianStructure.Notes,Field Notes
+169,CHAMPMeasMidChannelBottomOfSite.BottomOfSiteUTMZone,Bottom Of Site UTM Zone
+170,CHAMPMeasMidChannelBottomOfSite.BottomOfSiteUTMNorthing,Bottom Of Site UTM Northing
+171,CHAMPMeasMidChannelBottomOfSite.BottomOfSiteUTMEasting,Bottom Of Site UTM Easting
+174,CHAMPMeasSolarPathfinder.SolarPathFinderID,Solar Input ID
+176,CHAMPMeasSolarPathfinder.TransectID,Transect ID
+177,CHAMPMeasSolarPathfinder.SkylinePhotoNumber,Skyline Photo Number
+179,CHAMPMeasSolarPathfinder.Channelorientation,Channel orientation
+180,CHAMPMeasStreamTemperatureLogger.TemperatureID,Temperature ID
+182,CHAMPMeasStreamTemperatureLogger.UTMZone,UTM Zone
+183,CHAMPMeasStreamTemperatureLogger.UTMNorthing,UTM Northing
+184,CHAMPMeasStreamTemperatureLogger.UTMEasting,UTM Easting
+186,CHAMPMeasStreamTemperatureLogger.BankListItemID,Bank
+187,CHAMPMeasStreamTemperatureLogger.DistancefromBank,Distance from Bank
+188,CHAMPMeasStreamTemperatureLogger.PlacementLocation,Placement Location
+189,CHAMPMeasStreamTemperatureLogger.LoggerID,Logger ID
+190,CHAMPMeasStreamTemperatureLogger.DateIn,Date Installed
+191,CHAMPMeasStreamTemperatureLogger.DateOut,Date Removed
+192,CHAMPMeasStreamTemperatureLogger.PhotoID,Photo
+194,CHAMPMeasStreamTemperatureLogger.Notes,Field Notes
+197,CHAMPMeasSiteMarker.MarkerTypeListItemID,Marker Type
+201,CHAMPMeasSiteMarker.PhotoID,Photo
+203,CHAMPMeasSiteMarker.Notes,Field Notes
+204,CHAMPMeasWaterChemistry.WaterChemistryID,Water Chemistry ID
+207,CHAMPMeasWaterChemistry.TotalAlkalinity,Total Alkalinity
+208,CHAMPMeasWaterChemistry.Conductivity,Conductivity
+213,CHAMPMeasLargeWoodyDebris.IsJam,Is Jam
+214,CHAMPMeasLargeWoodyDebris.LargeWoodTypeListItemID,Large Wood Type
+218,CHAMPMeasSiteMarker.UTMZone,UTM Zone
+219,CHAMPMeasSiteMarker.UTMNorthing,UTM Northing
+220,CHAMPMeasSiteMarker.UTMEasting,UTM Easting
+221,CHAMPMeasLargeWoodyDebris.Notes,Field Notes
+229,CHAMPMeasAirTemperatureLogger.Elevation,Elevation
+234,CHAMPMeasDriftInverterbrateSample.NumJars,Number of Jars
+253,CHAMPMeasChannelUnitSupplement.ChannelUnitNumber,Channel Unit Number
+254,CHAMPMeasChannelUnitSupplement.SegmentNumber,Segment Number
+255,CHAMPMeasChannelUnitSupplement.Tier1ListItemID,Tier 1
+256,CHAMPMeasChannelUnitSupplement.Tier2ListItemID,Tier 2
+257,CHAMPMeasChannelUnitSupplement.TailCrest,Tail Crest
+258,CHAMPMeasChannelUnitSupplement.MaxDepth,Maximum Depth
+259,CHAMPMeasChannelUnitSupplement.Length,Length
+260,CHAMPMeasChannelUnitSupplement.Width,Width 5
+261,CHAMPMeasChannelUnitSupplement.Width1,Width 1
+262,CHAMPMeasChannelUnitSupplement.Width2,Width 2
+263,CHAMPMeasChannelUnitSupplement.Width3,Width 3
+264,CHAMPMeasChannelUnitSupplement.Width4,Width 4
+265,CHAMPMeasChannelUnitSupplement.Depth,Depth 5
+266,CHAMPMeasChannelUnitSupplement.Depth1,Depth 1
+267,CHAMPMeasChannelUnitSupplement.Depth2,Depth 2
+268,CHAMPMeasChannelUnitSupplement.Depth3,Depth 3
+269,CHAMPMeasChannelUnitSupplement.Depth4,Depth 4
+270,CHAMPMeasChannelUnitSupplement.Notes,Field Notes
+271,CHAMPMeasVisitInformation.DCEID,DCEID
+272,CHAMPMeasPebble.Notes,Field Notes
+273,CHAMPMeasFishCover.SumFishCover,Sum Fish Cover
+274,CHAMPMeasSubstrateCover.SumSubstrateCover,Sum Substrate Cover
+275,CHAMPMeasChannelUnit.CountPebbles,Count of Pebbles
+276,CHAMPMeasSideChannel.SideChannelGreaterThanSiteLengthListItemID,Side Channel Greater Than Site Length
+277,CHAMPMeasDischarge.StationDischarge,Station Discharge
+278,CHAMPMeasDriftInverterbrateSample.SampleDuration,Sample Duration
+279,CHAMPMeasLargeWoodyDebris.SumLWDCount,Sum LWD Count
+280,CHAMPMeasVisitInformation.HasAirTempLogger,Has Air Temp Logger
+281,CHAMPMeasVisitInformation.HasStreamTempLogger,Has Stream Temp Logger
+282,CHAMPMeasVisitInformation.HasMarkersListItemID,Has Markers
+283,CHAMPMeasVisitInformation.CountBenchmarks,Count of Benchmarks
+284,CHAMPMeasVisitInformation.CountDischargeStations,Count of Discharge Stations
+285,CHAMPMeasVisitInformation.CountPebbles,Count of Pebbles
+286,CHAMPMeasVisitInformation.CountLWD,Count of LWD
+287,CHAMPMeasVisitInformation.CountSolarPathfinderPhotos,Count of Solar Pathfinder Photos
+288,CHAMPMeasVisitInformation.SiteLengthWidthCategoryErrorListItemID,Site Length to Width Category Error
+289,CHAMPMeasBenchmark.BearingErrorListItemID,Bearing Errors
+290,CHAMPMeasPoolTailFines.MMCount2GT6ListItemID,2mm Count Greater Than 6mm Count
+291,CHAMPMeasAirTemperatureLogger.DataUpdateNotes,Data Update Notes
+292,CHAMPMeasBenchmark.DataUpdateNotes,Data Update Notes
+294,CHAMPMeasChannelUnit.DataUpdateNotes,Data Update Notes
+295,CHAMPMeasChannelUnitSupplement.DataUpdateNotes,Data Update Notes
+296,CHAMPMeasDischarge.DataUpdateNotes,Data Update Notes
+297,CHAMPMeasDriftInverterbrateSample.DataUpdateNotes,Data Update Notes
+298,CHAMPMeasLargeWoodyDebris.DataUpdateNotes,Data Update Notes
+299,CHAMPMeasMonument.DataUpdateNotes,Data Update Notes
+300,CHAMPMeasPebble.DataUpdateNotes,Data Update Notes
+301,CHAMPMeasPoolTailFines.DataUpdateNotes,Data Update Notes
+302,CHAMPMeasRiparianStructure.DataUpdateNotes,Data Update Notes
+303,CHAMPMeasSolarPathfinder.DataUpdateNotes,Data Update Notes
+304,CHAMPMeasStreamTemperatureLogger.DataUpdateNotes,Data Update Notes
+306,CHAMPMeasSiteMarker.DataUpdateNotes,Data Update Notes
+307,CHAMPMeasTransectPhoto.DataUpdateNotes,Data Update Notes
+308,CHAMPMeasVisitInformation.DataUpdateNotes,Data Update Notes
+309,CHAMPMeasVisitInformation.Surveyor,Surveyor
+310,CHAMPMeasVisitInformation.Rodman,Rodman
+311,CHAMPMeasVisitInformation.Accessory,Accessory
+312,CHAMPMeasDriftInvertebrateSampleResult.DriftInvertSampleID,Drift Invert Sample ID
+313,CHAMPMeasDriftInvertebrateSampleResult.CollectionDate,Collection Date
+314,CHAMPMeasDriftInvertebrateSampleResult.CountJars,Count Jars
+315,CHAMPMeasDriftInvertebrateSampleResult.SortingTechnicianName,Sorting Technician Name
+316,CHAMPMeasDriftInvertebrateSampleResult.SampleWormTaxistName,Sample Worm Taxist Name
+317,CHAMPMeasDriftInvertebrateSampleResult.SampleTaxistName,Sample Taxist Name
+318,CHAMPMeasDriftInvertebrateSampleResult.SortingTime,Sorting Time
+319,CHAMPMeasDriftInvertebrateSampleResult.PortionOfSampleSorted,Portion Of Sample Sorted
+320,CHAMPMeasTaxonBySizeClassCount.ListItemIDTaxon,Taxon
+321,CHAMPMeasTaxonBySizeClassCount.ListItemIDLifestage,Lifestage
+322,CHAMPMeasTaxonBySizeClassCount.ListItemIDTaxonGroup,Taxon Group
+323,CHAMPMeasTaxonBySizeClassCount.ListItemIDSizeClass,Size Class
+324,CHAMPMeasTaxonBySizeClassCount.ObservedCount,Observed Count
+325,CHAMPMeasTaxonBySizeClassCount.Qualifier,Qualifier
+326,CHAMPMeasSampleBiomass.ListItemIDTaxonGroup,Taxon Group
+327,CHAMPMeasSampleBiomass.TareMassGrams,Tare Mass
+328,CHAMPMeasSampleBiomass.DryMassGrams,Dry Mass
+329,CHAMPMeasSampleBiomass.TarePlusDryMassGrams,Tare Plus Dry Mass
+330,CHAMPMeasDriftInverterbrateSample.DriftNetWidthListItemID,Drift Net Width
+332,CHAMPMeasFishCover.AquaticVegetationFC,Aquatic Vegetation FC
+334,CHAMPMeasUndercutBank.UndercutBankID,Undercut Bank ID
+335,CHAMPMeasUndercutBank.UTMZone,UTM Zone
+336,CHAMPMeasUndercutBank.UTMNorthing,UTM Northing
+337,CHAMPMeasUndercutBank.UTMEasting,UTM Easting
+339,CHAMPMeasUndercutBank.EstimatedLength,Estimated Length
+340,CHAMPMeasUndercutBank.MidpointWidth,Average Width
+341,CHAMPMeasUndercutBank.MidpointDepth,Average Depth
+342,CHAMPMeasUndercutBank.ChannelUnitID,Channel Unit ID
+343,CHAMPMeasUndercutBank.DistanceToNearestUnitBoundary,Distance to Nearest Unit Boundary
+344,CHAMPMeasUndercutBank.EstimatedUndercutArea,Estimated Undercut Area
+345,CHAMPMeasUndercutBank.DataUpdateNotes,Data Update Notes
+352,CHAMPMeasLargeWoodyDebris.SmallMidLarge,Small MidLarge
+353,CHAMPMeasLargeWoodyDebris.SmallExtraLarge,Small ExtraLarge
+354,CHAMPMeasLargeWoodyDebris.MediumMidLarge,Medium MidLarge
+355,CHAMPMeasLargeWoodyDebris.MediumExtraLarge,Medium ExtraLarge
+356,CHAMPMeasLargeWoodyDebris.MidLargeSmall,MidLarge Small
+357,CHAMPMeasLargeWoodyDebris.MidLargeMedium,MidLarge Medium
+358,CHAMPMeasLargeWoodyDebris.MidLargeMidLarge,MidLarge MidLarge
+359,CHAMPMeasLargeWoodyDebris.MidLargeExtraLarge,MidLarge ExtraLarge
+360,CHAMPMeasLargeWoodyDebris.ExtraLargeSmall,ExtraLarge Small
+361,CHAMPMeasLargeWoodyDebris.ExtraLargeMedium,ExtraLarge Medium
+362,CHAMPMeasLargeWoodyDebris.ExtraLargeMidLarge,ExtraLarge MidLarge
+363,CHAMPMeasLargeWoodyDebris.ExtraLargeExtraLarge,ExtraLarge ExtraLarge
+364,CHAMPMeasWoodyDebrisJam.WoodyDebrisJamID,Woody Debris Jam ID
+365,CHAMPMeasWoodyDebrisJam.LargeWoodTypeListItemID,Large Wood Type
+366,CHAMPMeasWoodyDebrisJam.SmallSmall,Small Small
+367,CHAMPMeasWoodyDebrisJam.SmallMedium,Small Medium
+368,CHAMPMeasWoodyDebrisJam.SmallMidLarge,Small MidLarge
+369,CHAMPMeasWoodyDebrisJam.SmallExtraLarge,Small ExtraLarge
+370,CHAMPMeasWoodyDebrisJam.MediumSmall,Medium Small
+371,CHAMPMeasWoodyDebrisJam.MediumMedium,Medium Medium
+372,CHAMPMeasWoodyDebrisJam.MediumMidLarge,Medium MidLarge
+373,CHAMPMeasWoodyDebrisJam.MediumExtraLarge,Medium ExtraLarge
+374,CHAMPMeasWoodyDebrisJam.MidLargeSmall,MidLarge Small
+375,CHAMPMeasWoodyDebrisJam.MidLargeMedium,MidLarge Medium
+376,CHAMPMeasWoodyDebrisJam.MidLargeMidLarge,MidLarge MidLarge
+377,CHAMPMeasWoodyDebrisJam.MidLargeExtraLarge,MidLarge ExtraLarge
+378,CHAMPMeasWoodyDebrisJam.ExtraLargeSmall,ExtraLarge Small
+379,CHAMPMeasWoodyDebrisJam.ExtraLargeMedium,ExtraLarge Medium
+380,CHAMPMeasWoodyDebrisJam.ExtraLargeMidLarge,ExtraLarge MidLarge
+381,CHAMPMeasWoodyDebrisJam.ExtraLargeExtraLarge,ExtraLarge ExtraLarge
+382,CHAMPMeasWoodyDebrisJam.Notes,Field Notes
+383,CHAMPMeasWoodyDebrisJam.SumJamCount,Sum Jam Count
+384,CHAMPMeasWoodyDebrisJam.DataUpdateNotes,Data Update Notes
+385,CHAMPMeasJamHasChannelUnit.WoodyDebrisJamID,Woody Debris Jam ID
+386,CHAMPMeasJamHasChannelUnit.ChannelUnitID,Channel Unit ID
+387,CHAMPMeasJamHasChannelUnit.ProportionOfJam,Proportion Of Jam
+389,CHAMPMeasVisitInformation.SiteOverviewPhotoID,Site Overview Photo
+390,CHAMPMeasPoolTailFines.Grid1Btwn2and6mm,Grid1 Between 2 and 6mm
+391,CHAMPMeasPoolTailFines.Grid2Btwn2and6mm,Grid2 Between 2 and 6mm
+392,CHAMPMeasPoolTailFines.Grid3Btwn2and6mm,Grid3 Between 2 and 6mm
+393,CHAMPMeasJamHasChannelUnit.JamHasChannelUnitID,Jam Has Channel Unit ID
+394,CHAMPMeasCrossSection.CrossSectionID,Cross Section ID
+395,CHAMPMeasCrossSection.WettedWidth,Wetted Width
+396,CHAMPMeasCrossSection.DefaultStationWidth,Default Station Width
+397,CHAMPMeasCrossSection.Notes,Field Notes
+399,CHAMPMeasCrossSection.DataUpdateNotes,Data Update Notes
+400,CHAMPMeasDischarge.CrossSectionID,Cross Section ID
+412,CHAMPMeasStreamTemperatureLogger.AttachmentMethodListItemID,Attachment Method
+414,CHAMPMeasUndercutBank.NearestUnitBoundaryListItemID,Nearest Unit Boundary
+416,CHAMPMeasDriftInverterbrateSample.EndDepth,End Depth
+420,CHAMPMeasUndercutBank.BankListItemID,Bank
+421,CHAMPMeasRiparianStructure.LBCanopyWoodyBroadleafEvergreen,LB Canopy Woody Broadleaf Evergreen
+422,CHAMPMeasRiparianStructure.LBCanopyWoodyConiferous,LB Canopy Woody Coniferous
+423,CHAMPMeasRiparianStructure.LBCanopyWoodyDeciduous,LB Canopy Woody Deciduous
+424,CHAMPMeasRiparianStructure.RBCanopyWoodyBroadleafEvergreen,RB Canopy Woody Broadleaf Evergreen
+425,CHAMPMeasRiparianStructure.RBCanopyWoodyConiferous,RB Canopy Woody Coniferous
+426,CHAMPMeasRiparianStructure.RBCanopyWoodyDeciduous,RB Canopy Woody Deciduous
+427,CHAMPMeasRiparianStructure.LBUnderstoryWoodyBroadleafEvergreen,LB Understory Woody Broadleaf Evergreen
+428,CHAMPMeasRiparianStructure.LBUnderstoryWoodyConiferous,LB Understory Woody Coniferous
+429,CHAMPMeasRiparianStructure.LBUnderstoryWoodyDeciduous,LB Understory Woody Deciduous
+430,CHAMPMeasRiparianStructure.LBUnderstoryNonWoodyForbesGrasses,LB Understory Non-Woody Forbes Grasses
+431,CHAMPMeasRiparianStructure.RBUnderstoryWoodyBroadleafEvergreen,RB Understory Woody Broadleaf Evergreen
+432,CHAMPMeasRiparianStructure.RBUnderstoryWoodyConiferous,RB Understory Woody Coniferous
+433,CHAMPMeasRiparianStructure.RBUnderstoryWoodyDeciduous,RB Understory Woody Deciduous
+434,CHAMPMeasRiparianStructure.RBUnderstoryNonWoodyForbesGrasses,RB Understory Non-Woody Forbes Grasses
+439,CHAMPMeasRiparianStructure.LBGroundcoverTreesWoodyShrubsSeedling,LB Groundcover Trees-Woody Shrubs-Seedling
+440,CHAMPMeasRiparianStructure.LBGroundcoverNonWoodyForbesGrasses,LB Groundcover Non-Woody Forbes Grasses
+441,CHAMPMeasRiparianStructure.LBGroundcoverBareDirt,LB Groundcover Bare Dirt
+442,CHAMPMeasRiparianStructure.LBGroundcoverDuff,LB Groundcover Duff or Debris
+443,CHAMPMeasRiparianStructure.LBGroundcoverRock,LB Groundcover Rock
+444,CHAMPMeasRiparianStructure.RBGroundcoverTreesWoodyShrubsSeedling,RB Groundcover Trees-Woody Shrubs-Seedling
+445,CHAMPMeasRiparianStructure.RBGroundcoverNonWoodyForbesGrasses,RB Groundcover Non-Woody Forbes Grasses
+446,CHAMPMeasRiparianStructure.RBGroundcoverBareDirt,RB Groundcover Bare Dirt
+447,CHAMPMeasRiparianStructure.RBGroundcoverDuff,RB Groundcover Duff or Debris
+448,CHAMPMeasRiparianStructure.RBGroundcoverRock,RB Groundcover Rock
+451,CHAMPMeasTransect.TransectID,Transect ID
+452,CHAMPMeasUndercutBank.Notes,Field Notes
+453,CHAMPMeasBenchmark.BenchmarkStatusListItemID,Status
+455,CHAMPMeasControlPoint.ControlPointID,Control Point ID
+456,CHAMPMeasControlPoint.ControlPointNumber,Control Point Number
+457,CHAMPMeasControlPoint.UTMZone,UTM Zone
+458,CHAMPMeasControlPoint.UTMNorthing,UTM Northing
+459,CHAMPMeasControlPoint.UTMEasting,UTM Easting
+461,CHAMPMeasControlPoint.ControlPointTypeListItemID,Control Point Type
+462,CHAMPMeasControlPoint.Elevation,Elevation
+463,CHAMPMeasControlPoint.Notes,Field Notes
+464,CHAMPMeasControlPoint.DataUpdateNotes,Data Update Notes
+465,CHAMPMeasControlPoint.ControlPointStatusListItemID,Status
+467,CHAMPMeasMonument.Notes,Field Notes
+468,CHAMPMeasWaterChemistry.WaterChemistryNotes,Notes
+469,CHAMPMeasBankfullWidth.WidthCategoryNotes,Field Notes
+470,CHAMPMeasVisitInformation.Bearing,Bearing
+471,CHAMPMeasBankfullWidth.BFWidth1,Bankfull Width 1
+472,CHAMPMeasBankfullWidth.BFWidth2,Bankfull Width 2
+473,CHAMPMeasBankfullWidth.BFWidth3,Bankfull Width 3
+474,CHAMPMeasBankfullWidth.BFWidth4,Bankfull Width 4
+475,CHAMPMeasBankfullWidth.BFWidth5,Bankfull Width 5
+476,CHAMPMeasPoolTailFines.PoolTailFinesNotes,Pool Tail Fines Notes
+477,CHAMPMeasChannelUnit.LWDNotes,LWD Notes
+478,CHAMPMeasRiparianStructure.LBCanopyStandingDeadVegetation,LB Canopy Standing Dead Vegetation
+479,CHAMPMeasRiparianStructure.RBCanopyStandingDeadVegetation,RB Canopy Standing Dead Vegetation
+480,CHAMPMeasRiparianStructure.LBUnderstoryStandingDeadVegetation,LB Understory Standing Dead Vegetation
+481,CHAMPMeasRiparianStructure.RBUnderstoryStandingDeadVegetation,RB Understory Standing Dead Vegetation
+483,CHAMPMeasSiteMarker.DistanceToTransect,Distance To Transect
+484,CHAMPMeasVisitInformation.RevisitLayoutNotes,Revisit Layout Notes
+485,CHAMPMeasPebble.SubstrateSizeClassListItemID,Substrate Size Class
+486,CHAMPMeasPebble.CobblePercentFines,Cobble Percent Fines
+487,CHAMPMeasPebbleCrossSection.CrossSectionID,Cross Section ID
+488,CHAMPMeasPebbleCrossSection.Notes,Field Notes
+489,CHAMPMeasPebbleCrossSection.DataUpdateNotes,Data Update Notes
+490,CHAMPMeasPebbleCrossSection.ChannelUnitID,Channel Unit ID
+491,CHAMPMeasDriftInverterbrateSample.Notes,Field Notes
+493,CHAMPMeasCrossSection.StationCount,Station Count
+495,CHAMPMeasSolarPathfinder.Notes,Field Notes
+498,CHAMPMeasSiteMarker.BankListItemID,Bank
+501,CHAMPMeasAirTemperatureLogger.SensorConditionListItemID,Sensor Condition
+504,CHAMPMeasTransectPhoto.Notes,Field Notes
+507,CHAMPMeasVisitInformation.SiteOverviewPhotoUTMZone,Overview UTM Zone
+508,CHAMPMeasVisitInformation.SiteOverviewPhotoUTMNorthing,Overview UTM Northing
+509,CHAMPMeasVisitInformation.SiteOverviewPhotoUTMEasting,Overview UTM Easting
+515,CHAMPMeasBenchmark.DistanceToBottomOfSite,Distance To Bottom Of Site
+518,CHAMPMeasSiteMarker.DirectionFromTransectListItemID,Direction From Transect
+519,CHAMPMeasSiteMarker.DistanceToBank,Distance To Bank
+520,CHAMPMeasStreamTemperatureLoggerMaintenance.TemperatureID,Logger ID
+522,CHAMPMeasStreamTemperatureLoggerMaintenance.SensorConditionListItemID,SensorCondition
+523,CHAMPMeasStreamTemperatureLoggerMaintenance.TempLoggerActionListItemID,Action
+524,CHAMPMeasStreamTemperatureLoggerMaintenance.InstanteneousTemperature,Instantaneous Temperature
+525,CHAMPMeasStreamTemperatureLoggerMaintenance.Downloaded,Downloaded
+526,CHAMPMeasStreamTemperatureLoggerMaintenance.LoggerMaintenanceID,Logger Maintenance ID
+527,CHAMPMeasSiteMarker.MarkerPositionListItemID,Marker Position
+528,CHAMPMeasBenchmark.InstallationYear,Installation Year
+529,CHAMPMeasVisitInformation.Notes,Field Notes
+530,CHAMPMeasAirTemperatureLogger.DistanceToBank,Distance to Bank
+531,CHAMPMeasMonument.MonumentStatusListItemID,Status
+532,CHAMPMeasMonument.Elevation,Elevation
+533,CHAMPMeasSiteMarker.Elevation,Elevation
+534,CHAMPMeasStreamTemperatureLogger.Elevation,Elevation
+535,CHAMPMeasUndercutBank.Elevation,Elevation
+536,CHAMPMeasVisitInformation.SiteOverviewPhotoElevation,Overview Elevation
+537,CHAMPMeasMidChannelBottomOfSite.BottomOfSiteElevation,Bottom Of Site Elevation
+538,CHAMPMeasBenchmark.Elevation,Elevation
+539,CHAMPMeasVisitInformation.SurveyorSignoff,Surveyor Signoff
+540,CHAMPMeasStreamTemperatureLoggerMaintenance.InstTempDTM,Time
+541,CHAMPMeasCrossSection.TotalDischarge,Total Discharge
+542,CHAMPMeasRiparianStructure.LBTotalCanopyCoverByVegetation,LB Total Canopy Cover By Vegetation
+543,CHAMPMeasRiparianStructure.RBTotalCanopyCoverByVegetation,RB Total Canopy Cover By Vegetation
+544,CHAMPMeasRiparianStructure.LBTotalCanopyCoverBySize,LB Total Canopy Cover By Size
+545,CHAMPMeasRiparianStructure.RBTotalCanopyCoverBySize,RB Total Canopy Cover By Size
+546,CHAMPMeasRiparianStructure.LBTotalUnderstoryCover,LB Total Understory Cover
+547,CHAMPMeasRiparianStructure.RBTotalUnderstoryCover,RB Total Understory Cover
+548,CHAMPMeasRiparianStructure.LBTotalGroundCover,LB Total Ground Cover
+549,CHAMPMeasRiparianStructure.RBTotalGroundCover,RB Total Ground Cover
+550,CHAMPMeasWoodyDebrisJam.TotalProportionOfJam,Total Proportion Of Jam
+551,CHAMPMeasPoolTailFines.Grid1TotalCount,Grid1 Total Count
+552,CHAMPMeasPoolTailFines.Grid2TotalCount,Grid2 Total Count
+553,CHAMPMeasPoolTailFines.Grid3TotalCount,Grid3 Total Count
+554,CHAMPMeasCrossSection.DistanceToLeftWetted,Distance To Left Wetted
+556,CHAMPMeasCrossSection.DistanceToRightWetted,Distance To Right Wetted
+557,CHAMPMeasAirTemperatureLogger.GPSAccuracy,GPS Accuracy
+558,CHAMPMeasBenchmark.GPSAccuracy,GPS Accuracy
+559,CHAMPMeasMonument.GPSAccuracy,GPS Accuracy
+560,CHAMPMeasStreamTemperatureLogger.GPSAccuracy,GPS Accuracy
+561,CHAMPMeasSiteMarker.GPSAccuracy,GPS Accuracy
+562,CHAMPMeasUndercutBank.GPSAccuracy,GPS Accuracy
+563,CHAMPMeasControlPoint.GPSAccuracy,GPS Accuracy
+564,CHAMPMeasMidChannelBottomOfSite.BottomOfSiteGPSAccuracy,Bottom of Site GPS Accuracy
+565,CHAMPMeasVisitInformation.SiteOverviewPhotoGPSAccuracy,Overview GPS Accuracy
+566,CHAMPMeasSolarPathfinder.PhotoID,Photo ID
+567,CHAMPMeasStreamTemperatureResultFile.FileID,Downloaded CSV File
+568,CHAMPMeasStreamTemperatureResultFile.PlotTitle,Plot Title
+569,CHAMPMeasStreamTemperatureResultFile.CorrectionForGMT,Correction For GMT
+570,CHAMPMeasStreamTemperatureResultMessage.FileID,Logger File
+571,CHAMPMeasStreamTemperatureResultMessage.RecordID,Record ID
+572,CHAMPMeasStreamTemperatureResultMessage.EventDate,Event Date
+573,CHAMPMeasStreamTemperatureResultMessage.EventMessage,Event Message
+574,CHAMPMeasStreamTemperatureResultMeasurement.FileID,Logger File
+575,CHAMPMeasStreamTemperatureResultMeasurement.RecordID,Record ID
+576,CHAMPMeasStreamTemperatureResultMeasurement.EventDate,Event Date
+577,CHAMPMeasStreamTemperatureResultMeasurement.Temperature,Temperature
+578,CHAMPMeasDriftInverterbrateSample.VolumeSampled,Volume Sampled
+579,CHAMPMeasAirTemperatureResultMeasurement.ReadingType,Reading Type
+580,CHAMPMeasAirTemperatureResultMeasurement.EventDate,Event Date
+581,CHAMPMeasAirTemperatureResultMeasurement.Temperature,Temperature
+582,CHAMPMeasAirTemperatureLoggerOutput.ResultsFileID,Logger File
+583,CHAMPMeasSolarInputTransectResultMeasurement.SolarAccessDate,Solar Access Date
+584,CHAMPMeasSolarInputTransectResultMeasurement.SolarAccessValue,Solar Access Value
+585,CHAMPMeasSolarInputTransectResultMeasurement.TransectID,Transect ID
+586,CHAMPMeasSolarInputTransectResult.SessionName,Session Name
+587,CHAMPMeasSolarInputTransectResult.SkylinePhotoNumber,Skyline Photo Number
+588,CHAMPMeasSolarInputTransectResult.CreationDate,Creation Date
+589,CHAMPMeasSolarInputTransectResult.Latitude,Latitude
+590,CHAMPMeasSolarInputTransectResult.Longitude,Longitude
+591,CHAMPMeasSolarInputTransectResult.MagDec,Mag Dec
+592,CHAMPMeasSolarInputTransectResult.TrackingMode,Tracking Mode
+593,CHAMPMeasSolarInputTransectResult.PanelTilt,Panel Tilt
+594,CHAMPMeasSolarInputTransectResult.PanelAzimuth,Panel Azimuth
+595,CHAMPMeasSolarInputTransectResult.CorrectionForGMT,Correction For GMT
+596,CHAMPMeasSolarInputTransectResult.TransectID,Transect ID
+598,CHAMPMeasTopo.FileIDWseTIN,Wetted Edge TIN
+599,CHAMPMeasTopo.FileIDTIN,TIN
+600,CHAMPMeasTopo.PhotoIDCenterline,Center Line
+601,CHAMPMeasTopo.PhotoIDLongLines,Long Lines
+602,CHAMPMeasTopo.PhotoIDPlainDEM,Plain DEM
+603,CHAMPMeasTopo.PhotoIDThalweg,Thalweg
+604,CHAMPMeasTopo.PhotoIDWaterExtent,Water Extent
+605,CHAMPMeasTopo.FileIDLogFile,Log File
+606,CHAMPMeasTopo.FileIDResultsXML,Results XML
+607,CHAMPMeasTopo.FileIDGeoDatabase,Geo Database
+608,CHAMPMeasTopo.FileIDChangeDetectionResults,Change Detection Results
+609,CHAMPMeasTopo.FileIDSurveyGDB,Survey GDB Non Orthogonal
+610,CHAMPMeasTopo.FileIDConvertedShapeFiles,Converted Shapefiles
+611,CHAMPMeasTopo.FileIDRawInstrumentFiles,Raw Instrument Files
+612,CHAMPMeasSolarInputResult.SkylineSessionFileID,Skyline Session File
+613,CHAMPMeasSolarInputResult.AverageShadingFileID,Average Shading File
+614,CHAMPMeasSolarInputResult.AverageSolarAccessFileID,Average Solar Access File
+615,CHAMPMeasSolarInputResult.AverageWindowedSolarAccessFileID,Average Windowed Solar Access File
+616,CHAMPMeasSolarInputResult.ObstructionElevationsFileID,Obstruction Elevations File
+617,CHAMPMeasSolarInputResult.WindowedObstructionElevationsFileID,Windowed Obstruction Elevations File
+618,CHAMPMeasSolarInputResult.AverageMonthlySolarAccessPhotoID,Average Monthly Solar Access Photo
+619,CHAMPMeasSolarInputTransectResult.PVSOLFileID,PVSOL File
+620,CHAMPMeasSolarInputTransectResult.PVSYSTFileID,PVSYST File
+621,CHAMPMeasSolarInputTransectResult.AnnualAccessPhotoID,Annual Access Photo
+622,CHAMPMeasSolarInputTransectResult.AnnualAccessFullyAnnotatedPhotoID,Annual Access Fully Annotated Photo
+623,CHAMPMeasSolarInputTransectResult.DailySolarAccessFileID,Daily Solar Access File
+624,CHAMPMeasSolarInputTransectResult.FullFishEyePhotoID,Full Fish Eye Photo
+625,CHAMPMeasSolarInputTransectResult.InsolationFileID,Insolation File
+626,CHAMPMeasSolarInputTransectResult.MonthlySolarAccessPhotoID,Monthly Solar Access Photo
+627,CHAMPMeasSolarInputTransectResult.ObstructionElevationsFileID,Obstruction Elevations File
+628,CHAMPMeasSolarInputTransectResult.ObstructionElevationsXMLFileID,Obstruction Elevations XML File
+629,CHAMPMeasSolarInputTransectResult.ShadingFileID,Shading File
+630,CHAMPMeasSolarInputTransectResult.WindowedDailySolarAccessFileID,Windowed Daily Solar Access File
+631,CHAMPMeasSolarInputTransectResult.WindowedObstructionElevationsFileID,Windowed Obstruction Elevations File
+632,CHAMPMeasSolarInputTransectResult.SunEyeProprietaryFileID,Sun Eye Proprietary File
+633,CHAMPMeasStreamTemperatureResultFile.ProprietaryLoggerFileID,Hobo Proprietary File
+634,CHAMPMeasAirTemperatureLoggerOutput.LoggerProprietaryFileID,Proprietary File
+635,CHAMPMeasFishCover.CoverNotes,Cover Notes
+637,CHAMPMeasSideChannel.InQualifyingSideChannel,In Qualifying Side Channel
+638,CHAMPMeasUndercutBank.Width25Percent,Width 25%
+639,CHAMPMeasUndercutBank.Width50Percent,Width 50%
+640,CHAMPMeasUndercutBank.Width75Percent,Width 75%
+641,CHAMPMeasTransectPhoto.CenterUpRepeatPhotoID,Center Up Repeat
+642,CHAMPMeasTransectPhoto.CenterDownRepeatPhotoID,Center Down Repeat
+643,CHAMPMeasBenchmark.TransformedUTMZone,Transformed UTM Zone
+644,CHAMPMeasBenchmark.TransformedUTMNorthing,Transformed UTM Northing
+645,CHAMPMeasBenchmark.TransformedUTMEasting,Transformed UTM Easting
+646,CHAMPMeasBenchmark.TransformedElevation,Transformed Elevation
+647,CHAMPMeasDriftInverterbrateSample.DistanceToLeftWetted,Distance To Left Wetted
+648,CHAMPMeasTopo.FileIDSiteGDB,Site GDB
+649,CHAMPMeasTopo.FileIDSiteGDBLog,Site GDB Log File
+650,CHAMPMeasTopo.FileIDSiteGDBResultsXML,Site GDB Results XML
+651,CHAMPMeasTopo.FileIDTopoToolResultsXML,Topo Tool Log File
+652,CHAMPMeasTopoToolMessage.MessageDate,Date
+653,CHAMPMeasTopoToolMessage.MessageType,Type
+654,CHAMPMeasTopoToolMessage.MessageText,Message
+655,CHAMPMeasTopoToolMessage.ExceptionText,Exception
+656,CHAMPMeasTopoToolMessage.SolutionText,Solution
+657,CHAMPMeasTopo.TopoDataSetSubStatus,Survey Outcome
+658,CHAMPMeasTopoToolLogEntry.MessageDate,Date
+659,CHAMPMeasTopoToolLogEntry.ToolName,Tool
+660,CHAMPMeasTopoToolLogEntry.Status,Status
+661,CHAMPMeasTopoToolLogEntry.MessageText,Message
+662,CHAMPMeasSolarInputTransectResult.SolarPathfinderResultFileID,Solar Pathfinder Results File
+663,CHAMPMeasSolarPathfinderTransectResultMeasurement.TransectID,Transect ID
+664,CHAMPMeasSolarPathfinderTransectResultMeasurement.MeasurementDate,Date
+665,CHAMPMeasSolarPathfinderTransectResultMeasurement.MeasurementYear,Year
+666,CHAMPMeasSolarPathfinderTransectResultMeasurement.MeasurementMonth,Month
+667,CHAMPMeasSolarPathfinderTransectResultMeasurement.MeasurementHour,Hour
+668,CHAMPMeasSolarPathfinderTransectResultMeasurement.MeasurementMinute,Minute
+669,CHAMPMeasSolarPathfinderTransectResultMeasurement.SolarAccessValue,Solar Access Value
+670,CHAMPMeasSolarPathfinderTransectResultMeasurement.FileID,File
+671,CHAMPMeasStreamTemperatureResultFile.MinObservationDTM,Min Observation Date
+672,CHAMPMeasStreamTemperatureResultFile.MaxObservationDTM,Max Observation Date
+673,CHAMPMeasStreamTemperatureResultFile.RecordedDateIn,Recorded Date In
+674,CHAMPMeasStreamTemperatureResultFile.RecordedDateOut,Recorded Date Out
+675,CHAMPMeasStreamTemperatureResultFile.CountObservations,Count Observations
+676,CHAMPMeasStreamTemperatureResultFile.CountObservationsBeforeDateIn,Count Observations Before Date In
+677,CHAMPMeasStreamTemperatureResultFile.CountObservationsAfterDateOut,Count Observations After Date Out
+678,CHAMPMeasStreamTemperatureResultFile.HasObservationsOutsideLoggerDates,Has Observations Outside Logger Dates
+679,CHAMPMeasStreamTemperatureResultFile.LoggerID,Logger ID
+684,MeasTargetedRiffleSample.SampleID,Sample ID
+685,MeasTargetedRiffleSample.CountJars,Number of Jars
+686,MeasTargetedRiffleSample.FieldNotes,Field Notes
+688,MeasTargetedRiffleSampleReplicate.ReplicateNBR,Replicate Number
+689,MeasTargetedRiffleSampleReplicate.TransectIDNearest,Nearest Transect
+690,MeasTargetedRiffleSampleReplicate.SubstrateSizeClassMacroinvertsListItemID,Substrate Size
+691,MeasTargetedRiffleSampleReplicate.FieldNotes,Field Notes
+692,MeasLivestock.LivestockID,Livestock ID
+693,MeasLivestock.LivestockEvidence,Livestock Evidence
+695,MeasLivestock.FieldNotes,Field Notes
+708,MeasSnorkelSetup.SnorkelSetupID,Snorkel Setup ID
+709,MeasSnorkelSetup.WaterTemperature,Water Temp
+710,MeasSnorkelSetup.FishSurveyVisibilityListItemID,Visibility
+711,MeasSnorkelLaneTransect.TransectID,Transect ID
+712,MeasSnorkelLane.LaneID,Lane ID
+713,MeasSnorkelLane.Snorkeler,Snorkeler
+715,MeasSnorkelFish.LaneID,Lane
+717,MeasSnorkelFish.FishSpeciesListItemID,Species
+720,MeasSnorkelFish.FieldNotes,Field Notes
+721,MeasElectroSetup.ElectroSetupID,Electro Setup ID
+722,MeasElectroSetup.WaterTemperature,Water Temp
+723,MeasElectroSetup.Conductivity,Conductivity
+724,MeasElectroSetup.FishSurveyVisibilityListItemID,Visibility
+726,MeasElectroPass.ElectroPassID,Electro Pass ID
+727,MeasElectroPass.DurationSeconds,Duration
+728,MeasElectroPass.Voltage,Voltage
+729,MeasElectroPass.Amperage,Amperage
+731,MeasElectroPassTransectFish.ElectroPassID,Electro Pass ID
+732,MeasElectroPassTransectFish.FishMeasID,Fish ID
+733,MeasElectroPassTransectFish.FishSpeciesListItemID,Species
+734,MeasElectroPassTransectFish.ForkLengthMM,Fork Length
+735,MeasElectroPassTransectFish.FieldNotes,Field Notes
+736,MeasStreambank.TransectID,Transect ID
+737,MeasStreambank.LBErosionPCT,Left Bank Erosion
+738,MeasStreambank.RBErosionPCT,Right Bank Erosion
+739,MeasStreambank.FieldNotes,Field Notes
+740,MeasSlopeAndBearingSetup.TransectID,Transect ID
+741,MeasSlopeAndBearingSetup.Slope,Slope
+742,MeasSlopeAndBearingSetup.Bearing,Bearing
+743,MeasSlopeAndBearing.TransectID,Transect ID
+744,MeasSlopeAndBearing.ReadingID,Reading ID
+745,MeasSlopeAndBearing.DownstreamRodCM,Downstream Rod
+746,MeasSlopeAndBearing.UpstraemRodCM,Upstream Rod
+747,MeasSlopeAndBearing.DistanceM,Distance
+748,MeasSlopeAndBearing.Bearing,Bearing
+749,MeasSlopeAndBearing.FieldNotes,Field Notes
+754,MeasGravel.TransectID,Transect ID
+755,MeasGravel.PercentCover,Percent Cover
+756,MeasGravel.TotalAreaM2,Total Area
+757,MeasGravelUnit.TransectID,Transect ID
+758,MeasGravelUnit.GravelUnitID,Gravel Unit ID
+759,MeasGravelUnit.GravelAreaLenghM,Gravel Area Length
+760,MeasGravelUnit.GravelAreaWidthM,Gravel Area Width
+761,MeasLivestock.FencingIntact,Fencing Intact
+762,MeasSnorkelFish.FishCount,Fish Count
+763,MeasSnorkelFish.ChannelUnitID,Channel Unit
+764,MeasSnorkelFish.Tier1ListItemID,Tier 1
+765,MeasSnorkelFish.HabitatStructureListItemID,Structure Used
+767,MeasElectroPassTransectFish.Tier1ListItemID,Tier 1
+768,MeasElectroPassTransectFish.HabitatStructureListItemID,Structure Used
+769,MeasThalwegProfile.StationID,Station ID
+770,MeasThalwegProfile.DistanceM,Distance
+771,MeasThalwegProfile.ElevationM,Change in Elevation
+772,MeasThalwegProfile.DepthM,Depth
+773,MeasThalwegProfile.WettedWidthM,Wetted Width
+774,MeasThalwegProfile.SubstrateClassListItemID,Substrate
+775,MeasThalwegProfile.Tier1ListItemID,Tier 1
+776,MeasThalwegProfile.PoolPointLocationListItemID,Point Type
+779,MeasThalwegProfile.FieldNotes,Field Notes
+780,MeasCanopyCover.TransectID,Transect ID
+781,MeasCanopyCover.CenterUpDensiometer,CENUP
+782,MeasCanopyCover.CenterLeftDensiometer,CENL
+783,MeasCanopyCover.CenterDownDensiometer,CENDWN
+784,MeasCanopyCover.CenterRightDensiometer,CENR
+785,MeasCanopyCover.LeftDensiometer,LFT
+786,MeasCanopyCover.RightDensiometer,RGT
+787,MeasArtificallyPlacedInstreamStruct.AISTagID,AIS ID
+788,MeasArtificallyPlacedInstreamStruct.TransectID,Downstream Transect
+790,MeasArtificallyPlacedInstreamStruct.UTMZone,UTM Zone
+791,MeasArtificallyPlacedInstreamStruct.UTMNorthing,UTM Northing
+792,MeasArtificallyPlacedInstreamStruct.UTMEasting,UTM Easting
+793,MeasArtificallyPlacedInstreamStruct.Elevation,Elevation
+794,MeasArtificallyPlacedInstreamStruct.GPSAccuracy,GPS Accuracy
+795,MeasArtificallyPlacedInstreamStruct.FieldNotes,Field Notes
+796,MeasChannelConstraint.ChannelPatternListItemID,Channel Pattern
+797,MeasChannelConstraint.ChannelConstraintClassListItemID,Channel Constraint Class
+798,MeasChannelConstraint.ConstrainingFeaturesListItemID,Constraining Feature
+799,MeasChannelConstraint.ContactWithConstrainingFeature,Contact with Constraining Features
+800,MeasChannelConstraint.ValleyWidthM,Valley Width
+801,MeasChannelConstraint.FieldNotes,Field Notes
+802,MeasChannelConstraintMeasurement.TransectID,Transect ID
+803,MeasChannelConstraintMeasurement.ConstraintHeightCM,Constraint Height
+804,MeasChannelConstraintMeasurement.BankfullHeightCM,Bankfull Height
+805,MeasChannelConstraintMeasurement.BankfullDepthCM,Bankfull Depth
+806,MeasChannelConstraintMeasurement.BankfullWidthM,Bankfull Width
+807,MeasChannelConstraintMeasurement.FloodProneWidthM,Flood-prone Width
+812,MeasBarrierCulvert.BarrierID,Culvert ID
+813,MeasBarrierCulvert.CulvertHeightM,Culvert Height
+814,MeasBarrierCulvert.CulvertWidthM,Culvert Width
+815,MeasBarrierCulvert.ChannelWidthM,Channel Width
+816,MeasBarrierCulvert.WaterSurfaceDrop1M,Water Surface Drop 1
+817,MeasBarrierCulvert.WaterSurfaceDrop2M,Water Surface Drop 2
+818,MeasBarrierCulvert.WaterSurfaceDrop3M,Water Surface Drop 3
+819,MeasBarrierCulvert.IsCounterSunk,Countersunk
+820,MeasBarrierCulvert.FieldNotes,Field Notes
+821,MeasBarrierCulvertDimension.BarrierID,Culvert ID
+822,MeasBarrierCulvertDimension.BarrierCulvertLenSlopeID,Barrier Culvert Length and Slope ID
+823,MeasBarrierCulvertDimension.HI,Height of Instrument
+824,MeasBarrierCulvertDimension.InletHI,Inlet Rod Height
+825,MeasBarrierCulvertDimension.InletVD,Inlet Vertical Distance
+826,MeasBarrierCulvertDimension.InletHD,Inlet Horizontal Distance
+827,MeasBarrierCulvertDimension.OutletRH,Outlet Rod Height
+828,MeasBarrierCulvertDimension.OutletVD,Outlet Vertical Distance
+829,MeasBarrierCulvertDimension.OutletHD,Outlet Horizontal Distance
+830,MeasBarrierCulvertDimension.TraverseRH,Traverse Rod Height
+831,MeasBarrierCulvertDimension.TraverseVD,Traverse Vertical Distance
+832,MeasBarrierCulvertDimension.TraverseHD,Traverse Horizontal Distance
+833,MeasBarrierMisc.BarrierID,Barrier Misc ID
+834,MeasBarrierMisc.WaterSurfaceDrop1M,Water Surface Drop 1
+835,MeasBarrierMisc.WaterSurfaceDrop2M,Water Surface Drop 2
+836,MeasBarrierMisc.WaterSurfaceDrop3M,Water Surface Drop 3
+837,MeasBarrierMisc.WaterDepthM,Water Depth
+838,MeasBarrierMisc.FieldNotes,Field Notes
+839,MeasBarrierMiscSlope.BarrierID,Barrier Misc ID
+840,MeasBarrierMiscSlope.BarrierMiscSlopeID,Barrier Misc Slope ID
+841,MeasBarrierMiscSlope.HorizonalDistanceM,Horizontal Distance
+842,MeasBarrierMiscSlope.VerticalDistanceM,Vertical Distance
+843,CHAMPMeasFishCover.ChannelUnitID,Channel Unit ID
+844,CHAMPMeasSubstrateCover.ChannelUnitID,Channel Unit ID
+845,CHAMPMeasSideChannel.ChannelUnitID,Channel Unit ID
+846,MeasCrew.RoleListItemID,Role
+847,MeasCrew.CrewMemberName,Name
+848,MeasCrew.IsSignedOff,Sign-off
+849,MeasCrew.FieldNotes,Field Notes
+852,MeasChannelConstraint.ConstraintID,Constraint ID
+853,MeasChannelConstraintMeasurement.ConstraintID,Constraint ID
+854,MeasMultiHabitatSample.SoftSampleID,Sample ID
+855,MeasMultiHabitatSample.CountSoftSampleJars,Number of Sample Jars
+858,MeasMultiHabitatBenthicType.PercentCobbleGravel,Cobble and Gravel
+859,MeasMultiHabitatBenthicType.PercentWood,Snags and Submerged Wood
+860,MeasMultiHabitatBenthicType.PercentBanks,Vegetated and Overhanging Banks
+861,MeasMultiHabitatBenthicType.PercensFinesSand,Sand and Fines
+862,MeasMultiHabitatBenthicType.PercentBedrock,Bedrock or Hardpan
+863,MeasMultiHabitatBenthicType.PercentHardpan,Organic Detritus
+864,MeasMultiHabitatBenthicType.PercentVegetation,Aquatic Vegetation
+865,MeasMultiHabitatBenthicType.SumPercentHabitats,Sum Habitats
+866,MeasMultiHabitatSample.FieldNotes,Field Notes
+867,MeasMultiHabitatSampleReplicate.MultiHabitatID,Multi Habitat ID
+868,MeasMultiHabitatSampleReplicate.ReplicateNumber,Replicate Number
+869,MeasMultiHabitatSampleReplicate.TransectIDNearest,Nearest Transect
+870,MeasMultiHabitatSampleReplicate.ChannelUnitID,Channel Unit
+871,MeasMultiHabitatSampleReplicate.ListItemIDBottomType,Benthic Habitat Type
+872,MeasMultiHabitatSampleReplicate.ListItemIDNetType,Net Type
+873,MeasMultiHabitatSampleReplicate.ListItemIDSubstrateSize,Substrate Size
+874,MeasMultiHabitatSampleReplicate.FieldNotes,Field Notes
+901,MeasBarrierFishway.FishwayID,Fishway ID
+903,MeasBarrierFishwayWaterdrop.FishwayID,Fishway ID
+904,MeasBarrierFishwayWaterdrop.WaterSurfaceDropM,Water Surface Drop
+907,MeasBarrierFishway.FieldNotes,Field Notes
+908,MeasMultiHabitatSample.MultiHabitatID,Multi Habitat ID
+909,MeasRiparianStructureEMAP.TransectID,Transect ID
+910,MeasRiparianStructureEMAP.RiparianStructureID,Riparian Structure ID
+911,MeasRiparianStructureEMAP.LBCanopyVegetationTypeListItemID,LB Canopy Vegetation Type
+912,MeasRiparianStructureEMAP.LBCanopyBigTreesListItemID,LB Canopy Big Trees
+913,MeasRiparianStructureEMAP.LBCanopySmallTreesListItemID,LB Canopy Small Trees
+914,MeasRiparianStructureEMAP.LBUnderstoryVegetationTypeListItemID,LB Understory VegetationType
+915,MeasRiparianStructureEMAP.LBUnderstoryWoodyShrubsListItemID,LB Understory Woody Shrubs
+916,MeasRiparianStructureEMAP.LBUnderstoryNonWoodyShrubsListItemID,LB Understory Non-Woody Shrubs
+917,MeasRiparianStructureEMAP.LBGroundcoverWoodyShrubsListItemID,LB Groundcover Woody Shrubs
+918,MeasRiparianStructureEMAP.LBGroundcoverNonWoodyShrubsListItemID,LB Groundcover Non-Woody Shrubs
+919,MeasRiparianStructureEMAP.LBGroundcoverBarrenListItemID,LB Groundcover Barren
+920,MeasRiparianStructureEMAP.RBCanopyVegetationTypeListItemID,RB Canopy Vegetation Type
+921,MeasRiparianStructureEMAP.RBCanopyBigTreesListItemID,RB Canopy Big Trees
+922,MeasRiparianStructureEMAP.RBCanopySmallTreesListItemID,RB Canopy Small Trees
+923,MeasRiparianStructureEMAP.RBUnderstoryVegetationTypeListItemID,RB Understory Vegetation Type
+924,MeasRiparianStructureEMAP.RBUnderstoryWoodyShrubsListItemID,RB Understory Woody Shrubs
+925,MeasRiparianStructureEMAP.RBUnderstoryNonWoodyShrubsListItemID,RB Understory Non-Woody Shrubs
+926,MeasRiparianStructureEMAP.RBGroundcoverWoodyShrubsListItemID,RB Groundcover Woody Shrubs
+927,MeasRiparianStructureEMAP.RBGroundcoverNonWoodyShrubsListItemID,RB Groundcover Non-Woody Shrubs
+928,MeasRiparianStructureEMAP.RBGroundcoverBarrenListItemID,RB Groundcover Barren
+929,MeasRiparianStructureEMAP.FieldNotes,Field Notes
+930,MeasRiparianStructureEMAP.DataUpdateNotes,Data Update Notes
+931,MeasSnorkelSetup.FieldNotes,Field Notes
+932,MeasSnorkelLane.FieldNotes,Field Notes
+933,MeasElectroSetup.FieldNotes,Field Notes
+934,MeasElectroPass.FieldNotes,Field Notes
+936,MeasBarrierFishwayWaterdrop.WaterDropID,Fishway Waterdrop ID
+937,MeasTargetedRiffleSample.InvertID,InvertID
+938,MeasTargetedRiffleSampleReplicate.InvertID,InvertID
+942,MeasElectroPassTransect.TransectID,Transect ID
+944,MeasElectroPassTransect.ElectroPassID,Electro Pass ID
+946,MeasElectroPassTransectFish.TransectID,Transect ID
+948,CHAMPMeasVisitInformation.CountAuxPhotos,Count Aux Photos
+949,CHAMPMeasAirTemperatureLogger.GPSAccuracyTypeListItemID,GPS Accuracy Type
+950,CHAMPMeasBenchmark.GPSAccuracyTypeListItemID,GPS Accuracy Type
+951,CHAMPMeasVisitInformation.SiteOverviewPhotoGPSAccuracyTypeListItemID,Overview GPS Accuracy Type
+952,CHAMPMeasMonument.GPSAccuracyTypeListItemID,GPS Accuracy Type
+953,CHAMPMeasStreamTemperatureLogger.GPSAccuracyTypeListItemID,GPS Accuracy Type
+954,CHAMPMeasSiteMarker.GPSAccuracyTypeListItemID,GPS Accuracy Type
+955,CHAMPMeasUndercutBank.GPSAccuracyTypeListItemID,GPS Accuracy Type
+956,CHAMPMeasControlPoint.GPSAccuracyTypeListItemID,GPS Accuracy Type
+957,MeasArtificallyPlacedInstreamStruct.GPSAccuracyTypeListItemID,GPS Accuracy Type
+958,CHAMPMeasMidChannelBottomOfSite.BottomOfSiteGPSAccuracyTypeListItemID,Bottom of Site GPS Accuracy Type
+959,MeasElectroPassTransectFish.ChannelUnitID,Channel Unit ID
+960,MeasBarrierCulvertPhoto.BarrierID,Culvert ID
+961,MeasBarrierCulvertPhoto.PhotoNumber,Photo Number
+962,MeasBarrierCulvertPhoto.PhotoID,Photo
+963,MeasBarrierCulvertPhoto.FieldNotes,Field Notes
+964,MeasBarrierMiscPhoto.BarrierID,Barrier Misc ID
+965,MeasBarrierMiscPhoto.PhotoNumber,Photo Number
+966,MeasBarrierMiscPhoto.PhotoID,Photo
+967,MeasBarrierMiscPhoto.FieldNotes,Field Notes
+968,MeasBarrierFishwayPhoto.FishwayID,Fishway ID
+969,MeasBarrierFishwayPhoto.PhotoNumber,Photo Number
+970,MeasBarrierFishwayPhoto.PhotoID,Photo
+971,MeasBarrierFishwayPhoto.FieldNotes,Field Notes
+972,MeasSitePhoto.PhotoNumber,Photo Number
+973,MeasSitePhoto.PhotoID,Photo
+974,MeasSitePhoto.FieldNotes,Field Notes
+975,MeasArtificallyPlacedInstreamStruct.StructID,Struct ID
+976,MeasArtificallyPlacedInstreamStructPhoto.StructID,Struct ID
+977,MeasArtificallyPlacedInstreamStructPhoto.PhotoNumber,Photo Number
+978,MeasArtificallyPlacedInstreamStructPhoto.PhotoID,Photo
+979,MeasArtificallyPlacedInstreamStructPhoto.FieldNotes,Field Notes
+980,MeasArtificallyPlacedInstreamStruct.StructureTypeListItemID,Type of Structure
+981,MeasArtificallyPlacedInstreamStruct.OrientationToFlow,Orientation to Flow
+982,MeasArtificallyPlacedInstreamStruct.StructureDesc,Structure Description
+986,MeasChannelConstraintMeasurement.FloodProneWidthRemoteM,Flood-prone Width (remote)
+987,CHAMPMeasDriftInvertebrateSampleResult.SampleReplicateID,Sample Replicate ID
+988,CHAMPMeasTaxonBySizeClassCount.SampleReplicateID,Sample Replicate ID
+989,CHAMPMeasSampleBiomass.SampleReplicateID,Sample Replicate ID
+990,MeasSnorkelFish.SizeClassListItemID,SizeClass
+992,MeasMultiHabitatBenthicType.PercentOfSiteLength,Percent of Site Length
+993,MeasMultiHabitatBenthicType.BenthicTypeID,Benthic Type ID
+994,CHAMPMeasLargeWoodyPiece.LargeWoodPieceID,Piece ID
+995,CHAMPMeasLargeWoodyPiece.ChannelUnitID,Channel Unit ID
+996,CHAMPMeasLargeWoodyPiece.IsJamListItemID,Is Part Of Jam
+997,CHAMPMeasLargeWoodyPiece.LargeWoodTypeListItemID,Large Wood Type
+998,CHAMPMeasLargeWoodyPiece.DiameterM,Diameter
+999,CHAMPMeasLargeWoodyPiece.LengthM,Length
+1000,CHAMPMeasLargeWoodyPiece.IsPoolFormingListItemID,Is Pool Forming
+1001,CHAMPMeasLargeWoodyPiece.ObservationMethodListItemID,Method
+1002,CHAMPMeasLargeWoodyPiece.PieceLocationListItemID,Piece Location
+1003,CHAMPMeasLargeWoodyPiece.IsKeyPieceListItemID,Is Key Piece
+1004,CHAMPMeasLargeWoodyPiece.FieldNotes,LWD Piece Notes
+1005,CHAMPMeasCrossSection.SuggestedStationIncrementM,Suggested Station Increment
+1006,MeasSnorkelLaneTransect.LaneID,Lane ID
+1007,CHAMPMeasPoolTailFines.SumPoolTailFines,Sum Pool Tail Fines
+1008,MeasChannelConstraint.ValleyWidthRemoteM,Valley Width (remote)
+1009,MeasTargetedRiffleSampleReplicate.WaterDepthM,Water Depth
+1010,MeasLivestockPhoto.LivestockID,Livestock ID
+1011,MeasLivestockPhoto.PhotoNumber,Photo Number
+1012,MeasLivestockPhoto.PhotoID,Photo
+1013,MeasLivestockPhoto.FieldNotes,Field Notes
+1014,MeasElectroPassFish.ElectroPassID,Electro Pass ID
+1015,MeasElectroPassFish.FishMeasID,Fish ID
+1016,MeasElectroPassFish.FishSpeciesListItemID,Species
+1017,MeasElectroPassFish.ForkLengthMM,Fork Length
+1018,MeasElectroPassFish.Tier1ListItemID,Tier 1
+1019,MeasElectroPassFish.HabitatStructureListItemID,Structure Used
+1021,MeasElectroPassFish.FieldNotes,Field Notes
+1022,CHAMPMeasMidChannelBottomOfSite.FieldNotes,Field Notes
+1023,MeasChannelSegment.ChannelSegmentID,Channel Segment ID
+1024,MeasChannelSegment.SegmentNumber,Segment Number
+1025,MeasChannelSegment.SegmentTypeListItemID,Segment Type
+1026,MeasChannelSegment.Is100PercentWettedListItemID,Is Continuously Wet?
+1027,MeasChannelSegment.SideChannelLengthM,Side Channel Length
+1028,MeasChannelSegment.SideChannelWidthM,Side Channel Width
+1030,MeasChannelSegment.PercentWetted,Percent Wetted
+1031,MeasChannelSegment.FieldNotes,Field Notes
+1032,CHAMPMeasWaterChemistry.InstanteneousTemperature,Instantaneous Temperature
+1033,CHAMPMeasSiteMarker.TransectID,Transect
+1034,MeasMultiHabitatSampleReplicate.WaterDepthM,Water Depth
+1035,MeasElectroPass.NoFishObserved,No Fish Observed
+1036,MeasElectroPassTransect.NoFishObserved,No Fish Observed
+1037,MeasSnorkelLaneTransect.NoFishObserved,No Fish Observed
+1038,MeasVisitPoolTailFines.Grid1Lessthan2mm,Grid1 Less than 2mm
+1039,MeasVisitPoolTailFines.Grid1Btwn2and6mm,Grid1 Between 2 and 6mm
+1040,MeasVisitPoolTailFines.Grid1NonMeasureable,Grid1 Non-Measureable
+1041,MeasVisitPoolTailFines.Grid2Lessthan2mm,Grid2 Less than 2mm
+1042,MeasVisitPoolTailFines.Grid2Btwn2and6mm,Grid2 Between 2 and 6mm
+1043,MeasVisitPoolTailFines.Grid2NonMeasureable,Grid2 Non-Measureable
+1044,MeasVisitPoolTailFines.Grid3Lessthan2mm,Grid3 Less than 2mm
+1045,MeasVisitPoolTailFines.Grid3Btwn2and6mm,Grid3 Between 2 and 6mm
+1046,MeasVisitPoolTailFines.Grid3NonMeasureable,Grid3 Non-Measureable
+1047,MeasVisitPoolTailFines.Grid1TotalCount,Grid1 Total Count
+1048,MeasVisitPoolTailFines.Grid2TotalCount,Grid2 Total Count
+1049,MeasVisitPoolTailFines.Grid3TotalCount,Grid3 Total Count
+1050,MeasVisitPoolTailFines.SumPoolTailFines,Sum Pool Tail Fines
+1051,MeasVisitPoolTailFines.PoolTailFinesNotes,Pool Tail Fines Notes
+1052,MeasVisitPoolTailFines.PoolTailFinesID,Pool Tail Fines ID
+1053,MeasVisitPoolTailFines.DataUpdateNotes,Data Update Notes
+1054,CHAMPMeasLargeWoodyPiece.RecommendedMethodTXT,Recommended Method
+1055,CHAMPMeasLargeWoodyPiece.LargeWoodTally,Large Wood Tally
+1056,MeasSnorkelFishCountBinned.LaneID,Lane
+1058,MeasSnorkelFishCountBinned.FishSpeciesListItemID,Species
+1059,MeasSnorkelFishCountBinned.ChannelUnitID,Channel Unit
+1060,MeasSnorkelFishCountBinned.HabitatStructureListItemID,Structure Used
+1061,MeasSnorkelFishCountBinned.FieldNotes,Field Notes
+1062,MeasSnorkelFishCountBinned.FishCountLT50mm,Count < 50
+1063,MeasSnorkelFishCountBinned.FishCount50to69mm,Count 50 - 69
+1064,MeasSnorkelFishCountBinned.FishCount70to89mm,Count 70 - 89
+1065,MeasSnorkelFishCountBinned.FishCount90to99mm,Count 90 - 99
+1066,MeasSnorkelFishCountBinned.FishCountGT100mm,Count > 100
+1067,MeasSnorkelFishCountBinned.FishCountAdult,Count Adult
+1069,MeasSnorkelFishCountBinnedSteelhead.LaneID,Lane
+1072,MeasSnorkelFishCountBinnedSteelhead.FishSpeciesListItemID,Species
+1073,MeasSnorkelFishCountBinnedSteelhead.ChannelUnitID,Channel Unit
+1074,MeasSnorkelFishCountBinnedSteelhead.HabitatStructureListItemID,Structure Used
+1075,MeasSnorkelFishCountBinnedSteelhead.FishCountLT50mm,Count < 50
+1076,MeasSnorkelFishCountBinnedSteelhead.FishCount50to79mm,Count 50 - 79
+1077,MeasSnorkelFishCountBinnedSteelhead.FishCount80to129mm,Count 80 - 129
+1078,MeasSnorkelFishCountBinnedSteelhead.FishCount130to199mm,Count 130 - 199
+1079,MeasSnorkelFishCountBinnedSteelhead.FishCount200to249mm,Count 200 - 249
+1081,MeasSnorkelFishCountBinnedSteelhead.FishCountGT250mm,Count > 250
+1083,MeasSnorkelFishCountBinnedSteelhead.FieldNotes,Field Notes
+1084,MeasSnorkelFishYOYSalmon.LaneID,Lane
+1086,MeasSnorkelFishYOYSalmon.ChannelUnitID,Channel Unit
+1087,MeasSnorkelFishYOYSalmon.IsPresentListItemID,Present
+1088,MeasSnorkelFishYOYSalmon.FieldNotes,Field Notes
+1089,MeasSnorkelFishSpeciesPresent.LaneID,Lane
+1091,MeasSnorkelFishSpeciesPresent.ChannelUnitID,Channel Unit
+1093,MeasSnorkelFishSpeciesPresent.FishSpeciesListItemID,Species
+1094,MeasSnorkelFishSpeciesPresent.FieldNotes,Field Notes
+1095,MeasSnorkelRelativeAbundance.AbundanceID,Abundance ID
+1096,MeasSnorkelRelativeAbundance.FishSpeciesListItemID,Species
+1097,MeasSnorkelRelativeAbundance.AbundanceTypeListItemID,Abundance Type
+1098,MeasSnorkelRelativeAbundance.FieldNotes,Field Notes
+1100,CHAMPMeasAirTemperatureLoggerOutput.HOBOFileID,HOBO File
+1101,MeasChannelConstraintMeasurement.FieldNotes,Field Notes
+1102,MeasChannelConstraint.ConstrainingTypeListItemID,Type
+1103,MeasSnorkelSetup.NoFishObserved,No Fish Observed
+1104,MeasSnorkelFish.FishID,Fish ID
+1105,MeasSnorkelFishCountBinned.RecordID,Record ID
+1106,MeasSnorkelFishCountBinnedSteelhead.RecordID,Record ID
+1107,MeasSnorkelFishSpeciesPresent.RecordID,Record ID
+1108,MeasSnorkelFishYOYSalmon.RecordID,Record ID
+1109,MeasElectroPass.SumOfFishCount,Sum of Fish Count
+1110,MeasElectroSetup.SumOfFishCount,Sum of Fish Count
+1111,CHAMPMeasVisitInformation.FloodProneToBankfullRatio,Flood-prone To Bankfull Ratio
+1112,CHAMPMeasVisitInformation.ValleyWidthToBankfullRatio,Valley Width To Bankfull Ratio
+1113,MeasRiparianStructureEMAP.LBTotalCanopyCover,LB Total Canopy Cover
+1114,MeasRiparianStructureEMAP.RBTotalCanopyCover,RB Total Canopy Cover
+1115,MeasRiparianStructureEMAP.LBTotalUnderstoryCover,LB Total Understory Cover
+1116,MeasRiparianStructureEMAP.RBTotalUnderstoryCover,RB Total Understory Cover
+1117,MeasRiparianStructureEMAP.LBTotalGroundCover,LB Total Ground Cover
+1118,MeasRiparianStructureEMAP.RBTotalGroundCover,RB Total Ground Cover
+1119,MeasSnorkelFishCountBinned.SumOfFishCount,Sum of Fish Count
+1120,MeasSnorkelFishCountBinnedSteelhead.SumOfFishCount,Sum of Fish Count
+1121,MeasSnorkelFish.HabitatTypeListItemID,Habitat Type
+1122,MeasSnorkelLane.SnorkelerInitials,Snorkeler Initials
+1123,MeasElectroPassFish.ForkWeight,Weight
+1124,MeasElectroPassTransectFish.ForkWeight,Weight
+1125,MeasElectroPassChannelUnitFish.FishMeasID,Fish ID
+1126,MeasElectroPassChannelUnitFish.FishSpeciesListItemID,Species
+1127,MeasElectroPassChannelUnitFish.ForkLengthMM,Fork Length
+1128,MeasElectroPassChannelUnitFish.ForkWeight,Weight
+1130,MeasElectroPassChannelUnitFish.ChannelUnitID,Channel Unit ID
+1131,MeasElectroPassChannelUnitFish.HabitatStructureListItemID,Structure Used
+1132,MeasElectroPassChannelUnitFish.FieldNotes,Field Notes
+1133,MeasElectroPassChannelUnitFish.ElectroPassID,Electro Pass ID
+1134,CHAMPMeasWaterChemistry.ConductivityDateTime,Conductivity Time
+1135,MeasElectroSetup.StartDate,Start Date
+1136,MeasElectroSetup.TimeZoneListItemID,Time Zone
+1137,MeasSnorkelSetup.StartDate,Start Date
+1138,MeasSnorkelSetup.TimeZoneListItemID,Time Zone
+1139,MeasElectroPassFish.FinClipNumber,Fin Clip Number
+1140,MeasElectroSetup.TotalDischarge,Total Discharge
+1141,MeasAhcaSpawningGravel.ChannelUnitID,Channel Unit ID
+1142,MeasAhcaSpawningGravel.ResidentSuitableArea,Resident Suitable Area
+1143,MeasAhcaSpawningGravel.AnadromousSuitableArea,Anadromous Suitable Area
+1144,MeasAhcaSpawningGravel.ResidentSuitabilityListItemID,Resident Suitability
+1145,MeasAhcaSpawningGravel.AnadromousSuitabilityListItemID,Anadromous Suitability
+1146,MeasAhcaSpawningGravel.ResidentPatchCount,Resident Patch Count
+1147,MeasAhcaSpawningGravel.AnadromousPatchCount,Anadromous Patch Count
+1148,CHAMPMeasChannelUnitSupplement.ChannelUnitID,Channel Unit ID
+1149,CHAMPMeasChannelUnitSupplement.ChannelUnitSupplementID,Channel Unit Supplement ID
+1150,MeasSnorkelFish.NaturalWoodUsedListItemID,Natural Wood Used
+1151,MeasSnorkelFish.PlacedWoodUsedListItemID,Placed Wood Used
+1152,MeasSnorkelFish.NaturalBoulderUsedListItemID,Natural Boulder Used
+1153,MeasSnorkelFish.PlacedBoulderUsedListItemID,Placed Boulder Used
+1154,MeasSnorkelFish.NaturalOffChannelUsedListItemID,Natural OffChannel Used
+1155,MeasSnorkelFish.CreatedOffChannelUsedListItemID,Created OffChannel Used
+1156,MeasSnorkelFish.NewSideChannelUsedListItemID,New Side Channel Used
+1157,MeasSnorkelFish.NoStructureUsedListItemID,No Structure Used
+1158,MeasVisitOverview.StartDate,Start Date
+1159,MeasVisitOverview.EndDate,End Date
+1161,MeasVisitOverview.FieldNotes,Field Notes
+1162,MeasVisitOverview.StartUTMZone,Start UTM Zone
+1163,MeasVisitOverview.StartUTMNorthing,Start UTM Northing
+1164,MeasVisitOverview.StartUTMEasting,Start UTM Easting
+1165,MeasVisitOverview.StartElevation,Start Elevation
+1166,MeasVisitOverview.StartGPSAccuracy,Start GPS Accuracy
+1167,MeasVisitOverview.StartGPSAccuracyTypeListItemID,Start GPS Accuracy Type
+1168,MeasVisitOverview.EndUTMZone,End UTM Zone
+1169,MeasVisitOverview.EndUTMNorthing,End UTM Northing
+1170,MeasVisitOverview.EndUTMEasting,End UTM Easting
+1171,MeasVisitOverview.EndElevation,End Elevation
+1172,MeasVisitOverview.EndGPSAccuracy,End GPS Accuracy
+1173,MeasVisitOverview.EndGPSAccuracyTypeListItemID,End GPS Accuracy Type
+1174,MeasReachTransect.TransectID,Transect ID
+1175,MeasReachTransect.ChannelUnitID,Channel Unit ID
+1182,MeasReachTransect.CenterChannelUTMZone,Center Channel UTM Zone
+1183,MeasReachTransect.CenterChannelUTMNorthing,Center Channel UTM Northing
+1184,MeasReachTransect.CenterChannelUTMEasting,Center Channel UTM Easting
+1185,MeasReachTransect.CenterChannelElevation,Center Channel Elevation
+1186,MeasReachTransect.CenterChannelGPSAccuracy,Center Channel GPS Accuracy
+1187,MeasReachTransect.CenterChannelGPSAccuracyTypeListItemID,Center Channel GPS Accuracy Type
+1194,MeasReachTransect.FieldNotes,Field Notes
+1195,MeasReachTransect.Cobble1Embeddedness,Cobble 1
+1196,MeasReachTransect.Cobble2Embeddedness,Cobble 2
+1197,MeasReachTransect.Cobble3Embeddedness,Cobble 3
+1198,MeasReachTransect.Cobble4Embeddedness,Cobble 4
+1199,MeasReachTransect.Cobble5Embeddedness,Cobble 5
+1200,MeasReachTransect.Cobble6Embeddedness,Cobble 6
+1201,MeasReachTransect.Cobble7Embeddedness,Cobble 7
+1202,MeasReachTransect.Cobble8Embeddedness,Cobble 8
+1203,MeasReachTransect.Cobble9Embeddedness,Cobble 9
+1204,MeasReachTransect.Cobble10Embeddedness,Cobble 10
+1205,MeasReachTransect.Cobble11Embeddedness,Cobble 11
+1206,MeasReachTransect.Cobble12Embeddedness,Cobble 12
+1207,MeasReachTransect.Cobble13Embeddedness,Cobble 13
+1208,MeasReachTransect.Cobble14Embeddedness,Cobble 14
+1209,MeasReachTransect.Cobble15Embeddedness,Cobble 15
+1210,MeasReachTransect.Cobble16Embeddedness,Cobble 16
+1211,MeasReachTransect.Cobble17Embeddedness,Cobble 17
+1212,MeasReachTransect.Cobble18Embeddedness,Cobble 18
+1213,MeasReachTransect.Cobble19Embeddedness,Cobble 19
+1214,MeasReachTransect.Cobble20Embeddedness,Cobble 20
+1215,MeasReachTransectPhoto.TransectID,Transect ID
+1216,MeasReachTransectPhoto.CenterUpPhotoID,Center Up
+1217,MeasReachTransectPhoto.CenterLeftPhotoID,Center Left
+1218,MeasReachTransectPhoto.CenterDownPhotoID,Center Down
+1219,MeasReachTransectPhoto.CenterRightPhotoID,Center Right
+1220,MeasReachTransectPhoto.FieldNotes,Field Notes
+1221,MeasReachTransectChannelConstraint.TransectID,Transect ID
+1222,MeasReachTransectChannelConstraint.ChannelTypeListItemID,Channel Type
+1223,MeasReachTransectChannelConstraint.ConstraintTypeListItemID,Constraint Type
+1224,MeasReachTransectChannelConstraint.ConstrainingFeatureListItemID,Constraining Feature
+1225,MeasReachTransectChannelConstraint.LeftBankPercentConstraining,Left Bank Percent Constraining
+1226,MeasReachTransectChannelConstraint.RightBankPercentConstraining,Right Bank Percent Constraining
+1227,MeasReachTransectChannelConstraint.ThalwegRodHeight,Thalweg Rod Height
+1228,MeasReachTransectChannelConstraint.BankfullElevationRodHeight,Bankfull Elevation Rod Height
+1229,MeasReachTransectChannelConstraint.BankfullDepth,Bankfull Depth
+1230,MeasReachTransectChannelConstraint.BankfullWidth,Bankfull Width
+1231,MeasReachTransectChannelConstraint.FloodProneWidth,Flood Prone Width
+1232,MeasReachTransectRiparianVegetation.TransectID,Transect ID
+1233,MeasReachTransectRiparianVegetation.DomVegetationTypeLBListItemID,Left Bank Dominant Vegetation
+1234,MeasReachTransectRiparianVegetation.DomVegetationTypeRBListItemID,Right Bank Dominant Vegetation
+1235,MeasReachTransectRiparianVegetation.DomVegetationSizeClassLBListItemID,Left Bank Dominant Size
+1236,MeasReachTransectRiparianVegetation.DomVegetationSizeClassRBListItemID,Right Bank Dominant Size
+1237,MeasReachTransectRiparianVegetation.SurfaceClassLBListItemID,Left Bank Surface Type
+1238,MeasReachTransectRiparianVegetation.SurfaceClassRBListItemID,Right Bank Surface Type
+1239,MeasReachTransectRiparianVegetation.LeftBankSlopePercent,Left Bank % Slope
+1240,MeasReachTransectRiparianVegetation.RightBankSlopePercent,Right Bank % Slope
+1241,MeasReachTransectRiparianVegetation.LeftBankShrubCoverPercent,Left Bank % Shrub Cover
+1242,MeasReachTransectRiparianVegetation.RightBankShrubCoverPercent,Right Bank % Shrub Cover
+1243,MeasReachTransectRiparianVegetation.StreamCanopyClosureCenterUp,Center Up
+1244,MeasReachTransectRiparianVegetation.StreamCanopyClosureCenterLeft,Center Left
+1245,MeasReachTransectRiparianVegetation.StreamCanopyClosureCenterDown,Center Down
+1246,MeasReachTransectRiparianVegetation.StreamCanopyClosureCenterRight,Center Right

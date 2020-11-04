@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MetricSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Riverscapes/CHaMPAutomation/master/templates/XML/XSD/schema.xsd">
+  <Name>QA - Aux Tier 1 Metrics</Name>
+  <RootXPath>/AuxMetrics/Metrics/Tier1Metrics/*</RootXPath>
+  <Metrics>
+    <Metric name="LWVol_BfTier1" xpath="BankfullLargeWoodVolumeByTier1" precision="4" type="numeric" />
+    <Metric name="LWVol_WetTier1" xpath="WettedLargeWoodVolumeByTier1" precision="4" type="numeric" />
+    <Metric name="Tier1" xpath="Tier1" type="string" />
+  </Metrics>
+</MetricSchema>

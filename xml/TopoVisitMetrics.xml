@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MetricSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Riverscapes/CHaMPAutomation/master/templates/XML/XSD/schema.xsd">
+  <Name>QA - Topo Visit Metrics</Name>
+  <RootXPath>/TopoMetrics/Metrics</RootXPath>
+  <Metrics>
+    <Metric name="Area_Bf" xpath="Bankfull/WaterExtent/Area" precision="4" type="numeric" />
+    <Metric name="BfBraid" xpath="Bankfull/Centerline/Braidedness" precision="4" type="numeric" />
+    <Metric name="Bf_Island_Ct" xpath="Bankfull/Islands/Count" precision="0" type="numeric" />
+    <Metric name="Bf_QIsland_Area" xpath="Bankfull/Islands/QualifyingArea" precision="4" type="numeric" />
+    <Metric name="Bf_QIsland_Ct" xpath="Bankfull/Islands/QualifyingCount" precision="0" type="numeric" />
+    <Metric name="Lgth_BfChnl" xpath="Bankfull/Centerline/TotalChannelLength" precision="4" type="numeric" />
+    <Metric name="DpthBf_Avg" xpath="Bankfull/WaterExtent/Depth/Mean" precision="4" type="numeric" />
+    <Metric name="DpthBf_Max" xpath="Bankfull/WaterExtent/Depth/Max" precision="4" type="numeric" />
+    <Metric name="BfSCWdth" xpath="Bankfull/CrossSections/Side/Best/WetWidth/Mean" precision="4" type="numeric" />
+    <Metric name="BfSCWdth_CV" xpath="Bankfull/CrossSections/Side/Best/WetWidth/CV" precision="4" type="numeric" />
+    <Metric name="BfSCWDRat_Avg" xpath="Bankfull/CrossSections/Side/Best/W2AvDepth/Mean" precision="4" type="numeric" />
+    <Metric name="BfSCWDRat_CV" xpath="Bankfull/CrossSections/Side/Best/W2AvDepth/CV" precision="4" type="numeric" />
+    <Metric name="BfSCWMxDRat_Avg" xpath="Bankfull/CrossSections/Side/Best/W2MxDepth/Mean" precision="4" type="numeric" />
+    <Metric name="BfSCWMxDRat_CV" xpath="Bankfull/CrossSections/Side/Best/W2MxDepth/CV" precision="4" type="numeric" />
+    <Metric name="Lgth_Bf" xpath="Bankfull/Centerline/MainstemLength" precision="4" type="numeric" />
+    <Metric name="BfVol" xpath="Bankfull/WaterExtent/Volume" precision="4" type="numeric" />
+    <Metric name="BfWdth_Avg" xpath="Bankfull/CrossSections/Main/Best/WetWidth/Mean" precision="4" type="numeric" />
+    <Metric name="BfWdth_CV" xpath="Bankfull/CrossSections/Main/Best/WetWidth/CV" precision="4" type="numeric" />
+    <Metric name="BfWdthInt" xpath="Bankfull/WaterExtent/IntegratedWidth" precision="4" type="numeric" />
+    <Metric name="BfWDRat_Avg" xpath="Bankfull/CrossSections/Main/Best/W2AvDepth/Mean" precision="4" type="numeric" />
+    <Metric name="BfWDRat_CV" xpath="Bankfull/CrossSections/Main/Best/W2AvDepth/CV" precision="4" type="numeric" />
+    <Metric name="DetrendElev_SD" xpath="Detrended/StDev" precision="4" type="numeric" />
+    <Metric name="FstNT_Area" xpath="ChannelUnitsTier1/FastNonTurbulentGlide/Area" precision="4" type="numeric" />
+    <Metric name="FstNT_Ct" xpath="ChannelUnitsTier1/FastNonTurbulentGlide/Count" precision="0" type="numeric" />
+    <Metric name="FstNT_Freq" xpath="ChannelUnitsTier1/FastNonTurbulentGlide/Frequency" precision="4" type="numeric" />
+    <Metric name="FstNT_Pct" xpath="ChannelUnitsTier1/FastNonTurbulentGlide/Percent" precision="4" type="numeric" />
+    <Metric name="FstNT_Vol" xpath="ChannelUnitsTier1/FastNonTurbulentGlide/Volume" precision="4" type="numeric" />
+    <Metric name="FstTurb_Area" xpath="ChannelUnitsTier1/FastTurbulent/Area" precision="4" type="numeric" />
+    <Metric name="FstTurb_Ct" xpath="ChannelUnitsTier1/FastTurbulent/Count" precision="0" type="numeric" />
+    <Metric name="FstTurb_Freq" xpath="ChannelUnitsTier1/FastTurbulent/Frequency" precision="4" type="numeric" />
+    <Metric name="FstTurb_Pct" xpath="ChannelUnitsTier1/FastTurbulent/Percent" precision="4" type="numeric" />
+    <Metric name="FstTurb_Vol" xpath="ChannelUnitsTier1/FastTurbulent/Volume" precision="4" type="numeric" />
+    <Metric name="Grad" xpath="Thalweg/WSGradientPC" precision="4" type="numeric" />
+    <Metric name="PoolResidDpth" xpath="ChannelUnitsTier1/SlowPool/ResidualDepth" precision="4" type="numeric" />
+    <Metric name="Sin" xpath="Thalweg/Sinuosity" precision="4" type="numeric" />
+    <Metric name="Sin_CL" xpath="Wetted/Centerline/MainstemSinuosity" precision="4" type="numeric" />
+    <Metric name="SlowWater_Area" xpath="ChannelUnitsTier1/SlowPool/Area" precision="4" type="numeric" />
+    <Metric name="SlowWater_Ct" xpath="ChannelUnitsTier1/SlowPool/Count" precision="0" type="numeric" />
+    <Metric name="SlowWater_Freq" xpath="ChannelUnitsTier1/SlowPool/Frequency" precision="4" type="numeric" />
+    <Metric name="SlowWater_Pct" xpath="ChannelUnitsTier1/SlowPool/Percent" precision="4" type="numeric" />
+    <Metric name="SlowWater_Vol" xpath="ChannelUnitsTier1/SlowPool/Volume" precision="4" type="numeric" />
+    <Metric name="SCSm_Area" xpath="ChannelUnitsSummary/SmallSideChannel/Area" precision="4" type="numeric" />
+    <Metric name="SCSm_Ct" xpath="ChannelUnitsSummary/SmallSideChannel/Count" precision="0" type="numeric" />
+    <Metric name="SCSm_Freq" xpath="ChannelUnitsTier1/SmallSideChannel/Frequency" precision="4" type="numeric" />
+    <Metric name="SCSm_Pct" xpath="ChannelUnitsTier1/SmallSideChannel/Percent" precision="4" type="numeric" />
+    <Metric name="SCSm_Vol" xpath="ChannelUnitsSummary/SmallSideChannel/Volume" precision="4" type="numeric" />
+    <Metric name="DpthThlwg_Avg" xpath="Thalweg/Mean" precision="4" type="numeric" />
+    <Metric name="DpthThlwg_UF_CV" xpath="Thalweg/CV" precision="4" type="numeric" />
+    <Metric name="Lgth_Thlwg" xpath="Thalweg/Length" precision="4" type="numeric" />
+    <Metric name="Lgth_ThlwgCLRat" xpath="Thalweg/ThalwegToCenterlineRatio" precision="4" type="numeric" />
+    <Metric name="ChnlUnitTotal_Ct" xpath="ChannelUnitsSummary/ChannelUnitBreakdown/Other" precision="0" type="numeric" />
+    <Metric name="Area_Wet" xpath="Wetted/WaterExtent/Area" precision="4" type="numeric" />
+    <Metric name="WetBraid" xpath="Wetted/Centerline/Braidedness" precision="4" type="numeric" />
+    <Metric name="Wet_Island_Ct" xpath="Wetted/Islands/Count" precision="0" type="numeric" />
+    <Metric name="WetMChnl_Area" xpath="ChannelUnitsSummary/Main/Area" precision="4" type="numeric" />
+    <Metric name="Wet_QIsland_Area" xpath="Wetted/Islands/QualifyingArea" precision="4" type="numeric" />
+    <Metric name="Wet_QIsland_Ct" xpath="Wetted/Islands/QualifyingCount" precision="0" type="numeric" />
+    <Metric name="Lgth_WetChnl" xpath="Wetted/Centerline/TotalChannelLength" precision="4" type="numeric" />
+    <Metric name="DpthWet_SD" xpath="WaterDepth/StDev" precision="4" type="numeric" />
+    <Metric name="WetSCL_Area" xpath="ChannelUnitsSummary/LargeSideChannel/Area" precision="4" type="numeric" />
+    <Metric name="WetSC_Pct" xpath="ChannelUnitsSummary/SideChannelSummary/Percent" precision="4" type="numeric" />
+    <Metric name="WetSCWdth" xpath="Wetted/CrossSections/Side/Best/WetWidth/Mean" precision="4" type="numeric" />
+    <Metric name="WetSCWdth_CV" xpath="Wetted/CrossSections/Side/Best/WetWidth/CV" precision="4" type="numeric" />
+    <Metric name="WetSCWDRat_Avg" xpath="Wetted/CrossSections/Side/Best/W2AvDepth/Mean" precision="4" type="numeric" />
+    <Metric name="WetSCWDRat_CV" xpath="Wetted/CrossSections/Side/Best/W2AvDepth/CV" precision="4" type="numeric" />
+    <Metric name="WetSCWMxDRat_Avg" xpath="Wetted/CrossSections/Side/Best/W2MxDepth/Mean" precision="4" type="numeric" />
+    <Metric name="WetSCWMxDRat_CV" xpath="Wetted/CrossSections/Side/Best/W2MxDepth/CV" precision="4" type="numeric" />
+    <Metric name="Lgth_Wet" xpath="Wetted/Centerline/MainstemLength" precision="4" type="numeric" />
+    <Metric name="WetVol" xpath="Wetted/WaterExtent/Volume" precision="4" type="numeric" />
+    <Metric name="WetWdth_Avg" xpath="Wetted/CrossSections/Channel/Best/WetWidth/Mean" precision="4" type="numeric" />
+    <Metric name="WetWdth_CV" xpath="Wetted/CrossSections/Channel/Best/WetWidth/CV" precision="4" type="numeric" />
+    <Metric name="WetWdth_Int" xpath="Wetted/WaterExtent/IntegratedWidth" precision="4" type="numeric" />
+    <Metric name="WetWDRat_Avg" xpath="Wetted/CrossSections/Channel/Best/W2AvDepth/Mean" precision="4" type="numeric" />
+    <Metric name="WetWDRat_CV" xpath="Wetted/CrossSections/Channel/Best/W2AvDepth/CV" precision="4" type="numeric" />
+    <Metric name="WetWMxDRat_Avg" xpath="Wetted/CrossSections/Channel/Best/W2MxDepth/Mean" precision="4" type="numeric" />
+    <Metric name="WetWMxDRat_CV" xpath="Wetted/CrossSections/Channel/Best/W2MxDepth/CV" precision="4" type="numeric" />
+  </Metrics>
+</MetricSchema>

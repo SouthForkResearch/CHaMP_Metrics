@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MetricSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Riverscapes/CHaMPAutomation/master/templates/XML/XSD/schema.xsd">
+  <Name>QA - Aux Channel Metrics</Name>
+  <RootXPath>/AuxMetrics/Metrics/ChannelUnitMetrics/*</RootXPath>
+  <Metrics>
+    <Metric name="ChUnitNumber" xpath="ChannelUnitNumber" precision="0" type="numeric" />
+    <Metric name="LWCount" xpath="LargeWoodyPiecesCount" precision="0" type="numeric" />
+    <Metric name="Tier1" xpath="Tier1" type="string" />
+    <Metric name="Tier2" xpath="Tier2" type="string" />
+  </Metrics>
+</MetricSchema>

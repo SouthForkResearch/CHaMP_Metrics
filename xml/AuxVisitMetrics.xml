@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MetricSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Riverscapes/CHaMPAutomation/master/templates/XML/XSD/schema.xsd">
+  <Name>QA - Aux Visit Metrics</Name>
+  <RootXPath>/AuxMetrics/Metrics/VisitMetrics</RootXPath>
+  <Metrics>
+    <Metric name="Alk" xpath="SiteMeasurementOfAlkalinity" precision="4" type="numeric" />
+    <Metric name="Cond" xpath="SiteMeasurementOfConductivity" precision="4" type="numeric" />
+    <Metric name="Q" xpath="SiteDischarge" precision="4" type="numeric" />
+    <Metric name="DriftBioMass" xpath="DriftBiomassDensity" precision="4" type="numeric" />
+    <Metric name="LWVol_Bf" xpath="BankfullLargeWoodVolumeBySite" precision="4" type="numeric" />
+    <Metric name="LWVol_BfFstNT" xpath="BankfullLargeWoodVolumeInFastNonTurbulent" precision="4" type="numeric" />
+    <Metric name="LWVol_BfFstTurb" xpath="BankfullLargeWoodVolumeInFastTurbulent" precision="4" type="numeric" />
+    <Metric name="LWVol_BfSlow" xpath="BankfullLargeWoodVolumeInPools" precision="4" type="numeric" />
+    <Metric name="LWVol_Wet" xpath="WettedLargeWoodVolumeBySite" precision="4" type="numeric" />
+    <Metric name="LWVol_WetFstNT" xpath="WettedLargeWoodVolumeInFastNonTurbulent" precision="4" type="numeric" />
+    <Metric name="LWVol_WetFstTurb" xpath="WettedLargeWoodVolumeInFastTurbulent" precision="4" type="numeric" />
+    <Metric name="LWVol_WetSlow" xpath="WettedLargeWoodVolumeInPools" precision="4" type="numeric" />
+    <Metric name="RipCovBigTree" xpath="PercentBigTreeCover" precision="4" type="numeric" />
+    <Metric name="RipCovConif" xpath="PercentConiferousCover" precision="4" type="numeric" />
+    <Metric name="RipCovGrnd" xpath="PercentGroundCover" precision="4" type="numeric" />
+    <Metric name="RipCovCanNone" xpath="PercentCanopyNoCover" precision="4" type="numeric" />
+    <Metric name="RipCovGrndNone" xpath="PercentGroundCoverNoCover" precision="4" type="numeric" />
+    <Metric name="RipCovUstoryNone" xpath="PercentUnderstoryNoCover" precision="4" type="numeric" />
+    <Metric name="RipCovNonWood" xpath="PercentNonWoodyGroundCover" precision="4" type="numeric" />
+    <Metric name="RipCovUstory" xpath="PercentUnderstoryCover" precision="4" type="numeric" />
+    <Metric name="RipCovWood" xpath="PercentWoodyCover" precision="4" type="numeric" />
+    <Metric name="SolarSummr_Avg" xpath="SolarAccessSummerAvg" precision="4" type="numeric" />
+    <Metric name="SubLT2" xpath="PercentOfObservationsLessThan2mm" precision="4" type="numeric" />
+    <Metric name="SubLT6" xpath="PercentOfObservationsLessThan6mm" precision="4" type="numeric" />
+    <Metric name="SubD16" xpath="MeasurementOfD16" precision="4" type="numeric" />
+    <Metric name="SubD50" xpath="MeasurementOfD50" precision="4" type="numeric" />
+    <Metric name="SubD84" xpath="MeasurementOfD84" precision="4" type="numeric" />
+    <Metric name="SubEmbed_Avg" xpath="FastWaterCobbleEmbeddednessAvg" precision="4" type="numeric" />
+    <Metric name="SubEmbed_SD" xpath="FastWaterCobbleEmbeddednessStdDev" precision="4" type="numeric" />
+    <Metric name="Ucut_Area" xpath="TotalUndercutArea" precision="4" type="numeric" />
+    <Metric name="Ucut_Vol" xpath="TotalUndercutVolume" precision="4" type="numeric" />
+  </Metrics>
+</MetricSchema>

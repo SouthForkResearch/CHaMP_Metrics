@@ -1,0 +1,37 @@
+name,extent,feature_type,channel,filtering,attribute,statistic,active
+Wetted Channel Braidedness,Wetted,cl,Main,best,None,None,0
+Wetted Channel Count,Wetted,cl,Main,best,None,None,0
+Wetted Channel Mainstem Length,Wetted,cl,Main,best,None,None,0
+Wetted Channel Mainstem Sinuosity,Wetted,cl,Main,best,None,None,0
+Wetted Channel Total Length,Wetted,cl,Main,best,None,None,0
+Wetted Side Channel Width,Wetted,xs,Side,best,WetWidth,mean,1
+Wetted Side Channel Width CV,Wetted,xs,Side,best,WetWidth,coefficient_of_variation,0
+Wetted Side Channel Width to Depth Ratio Avg,Wetted,xs,Side,best,W2AvDepth,mean,1
+Wetted Side Channel Width to Depth Ratio CV,Wetted,xs,Side,best,W2AvDepth,coefficient_of_variation,0
+Wetted Side Channel Width to Max Depth Ratio Avg,Wetted,xs,Side,best,W2MxDepth,mean,0
+Wetted Side Channel Width to Max Depth Ratio CV,Wetted,xs,Side,best,W2MxDepth,coefficient_of_variation,0
+Wetted Site Length,Wetted,cl,Main,best,None,None,0
+Wetted Width Avg,Wetted,xs,Main,best,WetWidth,mean,1
+Wetted Width CV,Wetted,xs,Main,best,WetWidth,coefficient_of_variation,0
+Wetted Width To Depth Ratio Avg,Wetted,xs,Main,best,W2AvDepth,mean,1
+Wetted Width To Depth Ratio CV,Wetted,xs,Main,best,W2AvDepth,coefficient_of_variation,0
+Wetted Width to Max Depth Ratio Avg,Wetted,xs,Main,best,W2MxDepth,mean,1
+Wetted Width to Max Depth Ratio CV,Wetted,xs,Main,best,W2MxDepth,coefficient_of_variation,0
+Bankfull Channel Braidedness,Bankfull,cl,Main,best,None,None,0
+Bankfull Channel Count,Bankfull,cl,Main,best,None,None,0
+Bankfull Channel Mainstem Length,Bankfull,cl,Main,best,None,None,0
+Bankfull Channel Mainstem Sinuosity,Bankfull,cl,Main,best,None,None,0
+Bankfull Channel Total Length,Bankfull,cl,Main,best,None,None,0
+Bankfull Side Channel Width,Bankfull,xs,Side,best,WetWidth,mean,0
+Bankfull Side Channel Width CV,Bankfull,xs,Side,best,WetWidth,coefficient_of_variation,0
+Bankfull Side Channel Width to Depth Ratio Avg,Bankfull,xs,Side,best,W2AvDepth,mean,0
+Bankfull Side Channel Width to Depth Ratio CV,Bankfull,xs,Side,best,W2AvDepth,coefficient_of_variation,0
+Bankfull Side Channel Width to Max Depth Ratio Avg,Bankfull,xs,Side,best,W2MxDepth,mean,0
+Bankfull Side Channel Width to Max Depth Ratio CV,Bankfull,xs,Side,best,W2MxDepth,coefficient_of_variation,0
+Bankfull Site Length,Bankfull,cl,Main,best,None,None,0
+Bankfull Width Avg,Bankfull,xs,Main,best,WetWidth,mean,1
+Bankfull Width CV,Bankfull,xs,Main,best,WetWidth,coefficient_of_variation,0
+Bankfull Width To Depth Ratio Avg,Bankfull,xs,Main,best,W2AvDepth,mean,1
+Bankfull Width To Depth Ratio CV,Bankfull,xs,Main,best,W2AvDepth,coefficient_of_variation,0
+Bankfull Width to Max Depth Ratio Avg,Bankfull,xs,Main,best,W2MxDepth,mean,0
+Bankfull Width to Max Depth Ratio CV,Bankfull,xs,Main,best,W2MxDepth,coefficient_of_variation,0
